@@ -40,7 +40,7 @@ Back to [main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readm
       * The linker(ld) merges precompiled object files into our "~.o" files.
         * ex.) prinf() function resides in a separate precompiled object file called "printf.o".
 
-<img src="">
+<img src="https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study/blob/main/contents/ch_01/images/01_01_01_compilation_system.png">
 
 
 
