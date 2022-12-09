@@ -1,4 +1,4 @@
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readme)
+[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
 
 # Chapter 1. A Tour of Computer Systems  
 
@@ -40,7 +40,7 @@
       * The linker(ld) merges precompiled object files into our "\~.o" files.
         * ex.) prinf() function resides in a separate precompiled object file called "printf.o".
 
-<img src="https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study/blob/main/contents/ch_01/images/01_01_01_compilation_system.png">
+<img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_01_01_compilation_system.png">
 
 ---
 ## 1.3 It Pays to Learn How Compliation System Work
@@ -55,7 +55,7 @@
 * A command-line interpreter that prints a prompt, waits for the input in the command-line, and then performs the command.
   
 ### 1.4.1 Hardware Organization of a System
-<img src="https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study/blob/main/contents/ch_01/images/01_04_01_hardware_organization_of_system.png">
+<img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_04_01_hardware_organization_of_system.png">
 
 #### Concept) Buses
 * A collection of electrical conduits
@@ -111,4 +111,4 @@ the previous contents of the register.
 
 
 
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readme)
+[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
