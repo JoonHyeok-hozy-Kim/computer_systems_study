@@ -81,8 +81,27 @@ Back to [main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readm
 * Logically organized as a linear array of bytes, each with its own unique address.
 
 #### Concept) Processor (A.K.A. Central Processing Unit or CPU)
-* An engine that interprets instructions stored in main memory
-  
+* Def.) An engine that interprets instructions stored in main memory
+* Components
+  1. Program Counter (PC)
+      * A word sized device (or register)
+      * Located at the CPU's core
+      * At any time points at some machine-language instruction in main memory
+  2. Register File
+      * A small storage device that consists of a collection of word-sized registers, each with own unique name
+  3. Arithmetic/Logic Unit (ALU) 
+      * A unit that computes new data and address values
+* Job)
+  * Reads the instruction in the memory pointed by PC 
+  * Interprets the bits in the instruction 
+  * Performs some simple operation dictated by the instruction
+  * Updates the PC to the next instruction
+* CPU's Operations
+  1. **Load** : Copy a byte or a word from main memory into a register, overwriting
+the previous contents of the register.
+  1. **Store** : Copy a byte or a word from a register to a location in main memory, overwriting the previous contents of that location.
+  2. **Operate** : Copy the contents of two registers to the ALU, perform an arithmetic operation on the two words, and store the result in a register, overwriting the previous contents of that register.
+  3. **Jump** : Extract a word from the instruction itself and copy that word into the program counter (PC), overwriting the previous value of the PC.
 
 
 
