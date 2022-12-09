@@ -1,4 +1,4 @@
-Back to [main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readme)
+[Back to main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readme)
 
 # Chapter 1. A Tour of Computer Systems  
 
@@ -19,7 +19,7 @@ Back to [main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readm
 * A form of packaged instructions in low-level machine language.
 * A source program must be translated into a sequence of low-level machine language, packaged in a form of _executable object program_, and stored as a binary desk file.
 
-#### Concept) compliateion system
+#### Concept) compilation system
 * Four Sequential phases that a source file being translated into _executable object file_
 * Phases
   1. Preprocessing Phase
@@ -91,7 +91,7 @@ Back to [main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readm
       * A small storage device that consists of a collection of word-sized registers, each with own unique name
   3. Arithmetic/Logic Unit (ALU) 
       * A unit that computes new data and address values
-* Job)
+* CPU's Jobs)
   * Reads the instruction in the memory pointed by PC 
   * Interprets the bits in the instruction 
   * Performs some simple operation dictated by the instruction
@@ -111,4 +111,4 @@ the previous contents of the register.
 
 
 
-Back to [main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readme)
+[Back to main](https://github.com/JoonHyeok-hozy-Kim/coputer_systems_study#readme)
