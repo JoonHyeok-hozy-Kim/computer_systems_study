@@ -104,8 +104,19 @@ the previous contents of the register.
   3. **Jump** : Extract a word from the instruction itself and copy that word into the program counter (PC), overwriting the previous value of the PC.
 
 
+## 1.5 Caches Matter
+#### Concept) cache memory
+* Def.) A temporary staging area for information that the processor is likely to need in the near future
+* Prop.) Faster speed thanks to *locality*
+  * Smaller but faster than main memory
+  * Larger but slower than processor
+* Types.) Implemented with *static random access memory*
+  1. L1 : Faster than L1
+  2. L2 : Larger than L2, faster than L3
+  3. L3 : Larger than L3
 
 
+## 
 
 
 
