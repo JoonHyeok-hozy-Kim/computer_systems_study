@@ -116,8 +116,18 @@ the previous contents of the register.
   3. L3 : Larger than L3
 
 
-## 
-
+## 1-6 Storage Devices Form a Hierarchy
+#### Concept) Memory Hierarcy
+* Ranking
+  * L0 : register file
+  * L1 ~ L3 : caches
+  * L4 : memory
+* Prop.)
+  * High vs Low
+    * Higher Hierarchy : faster, smaller capacity, costly per byte
+    * Lower Hierarchy : slower, larger capacity, less costly per byte
+  * Storage at one level serves as a cache for the next level
+<img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_06_01_memory_hierarchy.png">
 
 
 
