@@ -129,6 +129,8 @@ the previous contents of the register.
   * Storage at one level serves as a cache for the next level
 <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_06_01_memory_hierarchy.png" width="80%">
 
+![memory hierarchy](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_06_01_memory_hierarchy.png)
+
 
 
 
