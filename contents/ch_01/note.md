@@ -144,9 +144,27 @@ the previous contents of the register.
   2. Main memory - Virtual memories
   3. Processor - Processes
 
-<p align="center">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_07_01_hw_abstraction_by_os.png" width="60%">
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_07_01_hw_abstraction_by_os.png" width="40%">
 </p>
+
+### 1.7.1 Processes
+* Def.) A process is the OS's abstraction for a running program
+* Prop.)
+  * Each process appears to have exclusive use of the HW.
+  * Tech.) context switch
+    * A mechanism that a single core CPU can appear to execute multiple processes simultaneously by the OS
+
+### 1.7.2 Threads
+* Def.) Multiple execution units, each running in the context of the process and sharing the same code and global data
+  
+### 1.7.3 Virtual Memory
+* Def.) An abstraction that provides each process with the illusion that it has exclusive use of the main memory
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_07_02_virtual_memory.png" width="50%">
+</p>
+
 
 
 
