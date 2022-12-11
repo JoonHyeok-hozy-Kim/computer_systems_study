@@ -11,6 +11,7 @@
 #### Concept) context
 * In different contexts, the same sequence of bytes might represent different objects.
 * ex.) char, integer, float, machine instructions
+
 ---
 
 ## 1.2 Programs Are Translated by Other Programs into Different Forms
@@ -43,12 +44,15 @@
 <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_01_01_compilation_system.png">
 
 ---
+
 ## 1.3 It Pays to Learn How Compliation System Work
 #### Prop.) Advantage of understanding how compliations system works
 * Optimizing program performance
 * Understanding link-time errors
 * Avoiding security holes
+
 ---
+
 ## 1.4 Processors Read and Interpret Instructions Stored in Memory
 #### Concept) shell
 * An application program of UNIX
@@ -103,6 +107,7 @@ the previous contents of the register.
   2. **Operate** : Copy the contents of two registers to the ALU, perform an arithmetic operation on the two words, and store the result in a register, overwriting the previous contents of that register.
   3. **Jump** : Extract a word from the instruction itself and copy that word into the program counter (PC), overwriting the previous value of the PC.
 
+---
 
 ## 1.5 Caches Matter
 #### Concept) cache memory
@@ -115,6 +120,7 @@ the previous contents of the register.
   2. L2 : Larger than L2, faster than L3
   3. L3 : Larger than L3
 
+---
 
 ## 1-6 Storage Devices Form a Hierarchy
 #### Concept) Memory Hierarcy
@@ -132,6 +138,7 @@ the previous contents of the register.
   <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_06_01_memory_hierarchy.png" width="60%">
 </p>
 
+---
 
 ## 1.7 The Operating System Manages the Hardware
 #### Concept) Operating System
@@ -161,9 +168,21 @@ the previous contents of the register.
 ### 1.7.3 Virtual Memory
 * Def.) An abstraction that provides each process with the illusion that it has exclusive use of the main memory
 
-<p align="left">
+<p align="center">
   <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_07_02_virtual_memory.png" width="50%">
 </p>
+
+### 1.7.4 Files
+* Def.) A sequence of bytes.
+* Prop.)
+  * Every I/O device is modeled as a file.
+    * ex.) disks, keyboards, displays, networks, etc
+
+---
+
+## 1.8 Systems Communicate with Other Systems Using Networks
+
+---
 
 
 
