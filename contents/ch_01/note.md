@@ -133,5 +133,21 @@ the previous contents of the register.
 </p>
 
 
+## 1.7 The Operating System Manages the Hardware
+#### Concept) Operating System
+* Def.) A layer of software interposed between the application program and the hardware
+* Props.) Purposes of OS
+  1. Protect HW from misuse by runaway programs
+  2. Provide applications with simple and uniform mechanisms for manipulating low-level devices
+* Props.) Abstraction of HW by OS
+  1. I/O devices - Files
+  2. Main memory - Virtual memories
+  3. Processor - Processes
+
+<p align="center">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_07_01_hw_abstraction_by_os.png" width="60%">
+</p>
+
+
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
