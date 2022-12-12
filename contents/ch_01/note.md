@@ -184,6 +184,18 @@ the previous contents of the register.
 
 ---
 
+## 1.9 Important Themes
+### 1.9.1 Concurrency and Parallelism
+* A.K.A : "Do more and Faster"
+* Concept) concurrency : a system with multiple, simultaneous activities
+* Concept) parallelism : the use of concurrency to make a system run faster
+
+#### Tech.) Parallelism exploited at three levels of abstraction
+1. Thread-Level Concurrency
+2. Instruction-Level Concurrency
+3. Single-Instruction, Multiple-Data (SIMD) Parallelism
+  
+### 1.9.2 The Importance of Abstractions in Computer Science
 
 
 
