@@ -28,7 +28,14 @@
     * Convert power with the divisor and remainder of 4.
     * e.g.) 2^(11) = 2^(3 + 4*3) = 8 * 16^3 = 0x800
 
-[Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-22)
+[Practice Problem 2.2](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-22)
+
+
+p71
+
+
+
+
 
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
