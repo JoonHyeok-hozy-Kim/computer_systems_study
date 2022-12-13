@@ -12,7 +12,7 @@
 
 ### 2.1.1 Hexadecimal Notation
 * How?)
-  * Use digits 0~9 and characters A~F to represent 0~16 possible values.
+  * Use digits 0\~9 and characters A\~F to represent 0\~16 possible values.
   * 8 bit representation
     1. Binary : 00000000(2) ~ 11111111(2)
     2. Decimal : 0(10) ~ 255(10)
@@ -21,6 +21,6 @@
     * Starts with "0x" or "0X"
     * e.g.) FA1D37B(16) = 0xFA1D37B = 0xfa1d38b
 
-p70
+#### [Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-21)
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
