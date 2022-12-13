@@ -21,6 +21,14 @@
     * Starts with "0x" or "0X"
     * e.g.) FA1D37B(16) = 0xFA1D37B = 0xfa1d38b
 
-#### [Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-21)
+[Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-21)
+
+* Tech.) A tip for converting hexadecimal to decimal
+  * If a decimal number of x is a power of two...
+    * Convert power with the divisor and remainder of 4.
+    * e.g.) 2^(11) = 2^(3 + 4*3) = 8 * 16^3 = 0x800
+
+[Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-22)
+
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
