@@ -99,7 +99,7 @@
 * Analysis) Cases when byte ordering can be issue to programmers
   1. When binary data are communicated over a different machines.
   2. Machine level program inspection
-  3. When programs are written that circumvent the normal type system : [Test]()
+  3. When programs are written that circumvent the normal type system : [Test](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/programs/nt_02_01_04_print_tye_byte.c)
 
 
 
