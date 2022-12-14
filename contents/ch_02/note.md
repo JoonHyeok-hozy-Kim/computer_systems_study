@@ -21,7 +21,7 @@
     * Starts with "0x" or "0X"
     * e.g.) FA1D37B(16) = 0xFA1D37B = 0xfa1d38b
 
-[Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-21)
+[:write: Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-21)
 
 * Tech.) A tip for converting hexadecimal to decimal
   * If a decimal number of x is a power of two...
@@ -42,7 +42,7 @@
 [Practice Problem 2.4](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-24)
 
 
-
+### 2.2.2 Words
 
 
 
