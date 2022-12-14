@@ -101,6 +101,10 @@
   2. Machine level program inspection
   3. When programs are written that circumvent the normal type system : [Test](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/programs/nt_02_01_04_print_tye_byte.c)
 
+[:orange_book: Practice Problem 2.5](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-25)
+
+[:orange_book: Practice Problem 2.6](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-26)
+
 
 
 ### KEYWORDS

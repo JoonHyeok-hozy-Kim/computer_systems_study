@@ -13,10 +13,15 @@ Back to [Ch 2. Representing and Manipulating Information](https://github.com/Joo
 ### Practice Problem 2.4
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/04.png)
 
-### Practice Problem 2.4
+### Practice Problem 2.5
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/05.png)
 
-[:computer: PGM Sol.](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/05.c)
+[:computer: Code](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/05.c)
+
+### Practice Problem 2.6
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/06.png)
+
+[:computer: Code](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/06.py)
 
 
 
