@@ -28,17 +28,18 @@
     * Convert power with the divisor and remainder of 4.
     * e.g.) 2^(11) = 2^(3 + 4*3) = 8 * 16^3 = 0x800
   * Else...
-    * Continuously divide with 16
+    * Continuously divide with 16 and use each remainder as the digit in reversed sequence.
     * e.g.) 314156(10) = 4CB2C(16)
 
-<p align="center">
+<p align="left">
   <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_01_decimal_to_hexadecimal.png" width="30%">
 </p>
 
 [Practice Problem 2.2](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-22)
 
+[Practice Problem 2.3](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-23)
 
-p71
+
 
 
 
