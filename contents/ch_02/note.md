@@ -27,6 +27,13 @@
   * If a decimal number of x is a power of two...
     * Convert power with the divisor and remainder of 4.
     * e.g.) 2^(11) = 2^(3 + 4*3) = 8 * 16^3 = 0x800
+  * Else...
+    * Continuously divide with 16
+    * e.g.) 314156(10) = 4CB2C(16)
+
+<p align="center">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_01_decimal_to_hexadecimal.png" width="30%">
+</p>
 
 [Practice Problem 2.2](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-22)
 
