@@ -23,12 +23,11 @@ void show_pointer(void *x){
 }
 
 int main() {
-    int a = 12345;
-    float b = 12345.0;
-    int *pa = &a;
 
-    show_int(a);
-    show_float(b);
-    show_pointer(pa);
+    int val = 0x87654321;
+    byte_pointer valp = (byte_pointer) &val;
+    show_bytes(valp, 1);
+    show_bytes(valp, 2);
+    show_bytes(valp, 3);
     
 }
