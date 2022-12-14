@@ -1,6 +1,6 @@
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
 
-# Chapter 2. A Tour of Computer Systems  
+# Chapter 2. A Tour of Computer Systems
 
 ## 2.1 Information Storage
 #### Terms.)
@@ -42,8 +42,69 @@
 [:orange_book: Practice Problem 2.4](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-24)
 
 
-### 2.2.2 Words
+### 2.1.2 Words
+* Def.) word size
+  * It indicates the normal size of integer and pointer data
+* Prop.)
+  * Virtual Address is encoded by such a word
+    * Thus, the most important system parameter determined by the word size is the maximum size of the virtual address space.
+      * e.g.) 32-bit : 4GB
+      * e.g.) 64-bit : 8GB
 
+
+### 2.1.3 Data Sizes
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_03_data_sizes.png" width="30%">
+</p>
+
+* C Language 
+  * Data types that use the full word size of the machine : 32-bit / 64-bit
+    * long long int
+    * pointer
+
+
+### 2.1.4 Addressing and Byte Ordering
+* Concept) Convention Establishment
+  1. What the address object will be?
+  2. How we will order the bytes in memory?
+
+* Example)
+  * Suppose an integer variable x with...
+    * address &x : 0x100
+    * value : 0x01234567
+    * size : 4 bytes (int)
+  * Then 4 bytes of x would be contiguously stored in memory locations : 0x100, 0x101, 0x102, and 0x103.
+  * In bit representation, [ x0, x1, x2, ..., x30, x31 ]
+    * which can be grouped by bytes : [ x0, x1, ... , x7 ] , [ x8, x9, ... , x15 ] , ... , [ x24, x25, ... , x31 ]
+    * Term.)
+      * Most significant byte : [ x24, x25, ... , x31 ]
+      * Least significant byte : [ x0, x1, ... , x7 ]
+
+* Concept) Little Endian
+  * Def.) Machines choose to store objects in memory ordered from least significant byte to most
+  * Usages : most Intel-compatible machines
+
+* Concept) Big Endian
+  * Def.) Machines choose to store objects in memory ordered from most significant byte to least
+  * Usages : most machines from IBM and Sun Microsystems
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_04_little_vs_big_endian.png" width="30%">
+</p>
+
+* Concept) Bi Endian
+  * Def.) Configured to operate as either little- or big- endian.
+
+* Analysis) Cases when byte ordering can be issue to programmers
+  1. When binary data are communicated over a different machines.
+  2. Machine level program inspection
+  3. When programs are written that circumvent the normal type system : [Test]()
+
+
+
+### KEYWORDS
+* words; data size; addressing; byte ordering; little endian; big endian; bi endian;
 
 
 

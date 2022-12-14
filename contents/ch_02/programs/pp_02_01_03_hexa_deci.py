@@ -12,3 +12,7 @@ if __name__ == '__main__':
     hexas = [0x52, 0xac, 0xe7]
     for a in hexas:
         print('decimal : {}, binary : {}, hexadecimal : {}'.format(a, bin(a), hex(a)))
+
+
+    x = 12345
+    print(hex(x))
