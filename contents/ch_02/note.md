@@ -116,6 +116,32 @@
     * 
 [:orange_book: Practice Problem 2.7](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-27)
 
+### 2.1.6 Representing Code
+* Props.)
+  * Different machine types use different and incompatible instructions and encodings.
+  * Even identical processors running different OS have differences in their coding conventions.
+    * Recall that machine has no information about the original source program.
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_06_code_representations_by_os.png" width="30%">
+</p>
+
+### 2.1.7 Introduction to Boolean Algebra
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_07_bit_operation_examples.png" width="30%">
+</p>
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_06_code_representations_by_os.png" width="30%">
+</p>
+
+
+
+
+
+
+
 
 
 ### KEYWORDS
