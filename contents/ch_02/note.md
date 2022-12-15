@@ -55,7 +55,7 @@
 ### 2.1.3 Data Sizes
 
 <p align="left">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_03_data_sizes.png" width="30%">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_03_data_sizes.png" width="40%">
 </p>
 
 * C Language 
@@ -125,6 +125,7 @@
 <p align="left">
   <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_06_code_representations_by_os.png" width="60%">
 </p>
+
 
 ### 2.1.7 Introduction to Boolean Algebra
 

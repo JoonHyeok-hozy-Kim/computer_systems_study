@@ -28,6 +28,9 @@ Back to [Ch 2. Representing and Manipulating Information](https://github.com/Joo
 
 [:computer: Code](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/07.c)
 
+### Practice Problem 2.8
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/08.png)
+
 
 
 
