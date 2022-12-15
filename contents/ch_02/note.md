@@ -90,7 +90,7 @@
   * Usages : most machines from IBM and Sun Microsystems
 
 <p align="left">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_04_little_vs_big_endian.png" width="30%">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_04_little_vs_big_endian.png" width="40%">
 </p>
 
 * Concept) Bi Endian
@@ -113,7 +113,7 @@
     * ASCII code for decimal digit number *n* is 0x3*n*.
       * e.g.) '0' : 0x30, '1' : 0x31, '2' : 0x32, ...
     * ASCII code for the null character is 0x00.
-    * 
+ 
 [:orange_book: Practice Problem 2.7](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-27)
 
 ### 2.1.6 Representing Code
@@ -123,17 +123,17 @@
     * Recall that machine has no information about the original source program.
 
 <p align="left">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_06_code_representations_by_os.png" width="30%">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_06_code_representations_by_os.png" width="60%">
 </p>
 
 ### 2.1.7 Introduction to Boolean Algebra
 
 <p align="left">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_07_bit_operation_examples.png" width="30%">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_07_bit_operation_examples.png" width="60%">
 </p>
 
 <p align="left">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_06_code_representations_by_os.png" width="30%">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/images/02_01_06_code_representations_by_os.png" width="60%">
 </p>
 
 
