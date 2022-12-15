@@ -10,4 +10,4 @@
 |||
 |||
 |||
-|||
+|[Practice Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md)||
