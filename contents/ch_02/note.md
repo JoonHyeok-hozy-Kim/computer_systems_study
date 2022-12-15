@@ -48,8 +48,8 @@
 * Prop.)
   * Virtual Address is encoded by such a word
     * Thus, the most important system parameter determined by the word size is the maximum size of the virtual address space.
-      * e.g.) 32-bit : 4GB
-      * e.g.) 64-bit : 8GB
+      * e.g.) 32-bit : 4 byte
+      * e.g.) 64-bit : 8 byte
 
 
 ### 2.1.3 Data Sizes
@@ -70,13 +70,13 @@
   2. How we will order the bytes in memory?
 
 * Example)
-  * Suppose an integer variable x with...
-    * address &x : 0x100
+  * Suppose an integer variable *x* with...
+    * address *&x* : 0x100
     * value : 0x01234567
-    * size : 4 bytes (int)
-  * Then 4 bytes of x would be contiguously stored in memory locations : 0x100, 0x101, 0x102, and 0x103.
-  * In bit representation, [ x0, x1, x2, ..., x30, x31 ]
-    * which can be grouped by bytes : [ x0, x1, ... , x7 ] , [ x8, x9, ... , x15 ] , ... , [ x24, x25, ... , x31 ]
+    * size : 4 bytes (In case of long int in 64-bit machine or long long int, the size will be 8 bytes.)
+  * Then 4 bytes of *x* would be contiguously stored in memory locations : 0x100, 0x101, 0x102, and 0x103.
+  * In bit representation, [ x31, x30, x29, ... , x2, x1, x0 ]
+    * which can be grouped by bytes : [ x31, x30, ... , x24 ], [ x23, x22, ... , x16 ], ... , [ x7, x6, ... , x0 ]
     * Term.)
       * Most significant byte : [ x24, x25, ... , x31 ]
       * Least significant byte : [ x0, x1, ... , x7 ]
@@ -104,6 +104,17 @@
 [:orange_book: Practice Problem 2.5](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-25)
 
 [:orange_book: Practice Problem 2.6](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-26)
+
+### 2.1.5 Representing Strings
+* Concept) String in C
+  * Encoded by an array of characters
+  * Terminated by the null character : '\0'
+  * Props.
+    * ASCII code for decimal digit number *n* is 0x3*n*.
+      * e.g.) '0' : 0x30, '1' : 0x31, '2' : 0x32, ...
+    * ASCII code for the null character is 0x00.
+    * 
+[:orange_book: Practice Problem 2.7](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems.md#practice-problem-27)
 
 
 
