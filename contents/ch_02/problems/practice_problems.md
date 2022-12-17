@@ -42,6 +42,9 @@ Back to [Ch 2.1 Information Storages](https://github.com/JoonHyeok-hozy-Kim/comp
 
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/10-sol.png)
 
+### Practice Problem 2.11
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/11.png)
+
 
 
 
