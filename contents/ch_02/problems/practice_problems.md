@@ -142,6 +142,10 @@ int main() {
 
 ### Practice Problem 2.14
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/14.png)
+
+
+### Practice Problem 2.15
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/15.png)
 * Sol.
 
 ```C
