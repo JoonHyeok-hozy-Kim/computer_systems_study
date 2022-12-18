@@ -177,6 +177,8 @@ int main() {
 }
 ```
 
+### Practice Problem 2.16
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/16.png)
 
 
 
