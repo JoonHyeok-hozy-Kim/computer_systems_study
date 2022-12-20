@@ -10,3 +10,7 @@ if __name__ == '__main__':
     hex_deduction(0x503c,0x40)
     hex_addition(0x503c, 64)
     hex_deduction(0x50ea, 0x503c)
+
+
+    print(2**32)
+    print(2**31)

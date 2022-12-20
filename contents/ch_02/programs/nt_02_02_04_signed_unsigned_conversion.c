@@ -7,12 +7,12 @@ void signed_to_unsigned_test(){
 }
 
 void unsigned_to_signed_test(){
-    unsigned u = 4294967295u;
+    unsigned u = 4294967295u; /* UMax_32 */
     int tu = (int) u;
     printf("u = %u, tu = %d\n", u, tu);
 }
 
 int main() {
-    // signed_to_unsigned_test();
+    signed_to_unsigned_test();
     unsigned_to_signed_test();
 }
