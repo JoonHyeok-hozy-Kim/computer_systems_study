@@ -180,5 +180,15 @@ int main() {
 ### Practice Problem 2.16
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/16.png)
 
+### Practice Problem 2.17
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/17.png)
+
+
+
+
+
+
+
+
 
 Back to [Ch 2.1 Information Storages](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/notes/01.md)
