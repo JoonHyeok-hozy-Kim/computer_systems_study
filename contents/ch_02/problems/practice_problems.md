@@ -192,6 +192,9 @@ int main() {
 ### Practice Problem 2.21
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/21.png)
 
+### Practice Problem 2.22
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/22.png)
+
 
 
 
