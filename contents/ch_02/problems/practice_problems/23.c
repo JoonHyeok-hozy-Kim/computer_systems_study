@@ -22,7 +22,7 @@ int main() {
     unsigned* words;
     words = (unsigned*) malloc(4 * sizeof(unsigned));
     words[0] = 0x00000076;
-    words[1] = 0x87654321;
+    words[1] = 0x00000021;
     words[2] = 0x000000c9;
     words[3] = 0xedcba987;
 
