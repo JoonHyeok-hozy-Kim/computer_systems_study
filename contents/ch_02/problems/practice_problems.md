@@ -1,4 +1,4 @@
-Back to [Ch 2.1 Information Storages](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/notes/01.md)
+[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
 
 
 ### Practice Problem 2.1
@@ -202,12 +202,92 @@ int main() {
 ### Practice Problem 2.24
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/24.png)
 
+### Practice Problem 2.25
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/25.png)
+* Analysis.)
+  * In the loop condition, there is a comparison operation between signed and unsigned integers.
+    * i <= length -1
+    * where i is signed and length is unsigned.
+  * Thus, i, which was initially a signed integer, implicitly casted to unsigned.
+  * Considering that length is zero, the expression goes : i <= -1.
+  * Recall that T2U(-1) = UMax.
+  * Therefore, a memory error occurred.
+* Sol.) Cast length into signed.
+  
+```C
+#include <stdio.h>
+
+float buggy_sum_elements(float a[], unsigned length){
+    int i;
+    float result = 0;
+
+    for (i=0; i<= length-1; i++){
+        printf("%d ", i);
+        result += a[i];
+    }
+    printf("\nEnd Loop\n");
+
+    return result;
+}
+
+float sum_elements(float a[], unsigned length){
+    int i;
+    float result = 0;
+
+    for (i=0; i< (int) length-1; i++){  // length casted into signed!
+        printf("%d ", i);
+        result += a[i];
+    }
+
+    printf("\nEnd Loop\n");
+    return result;
+}
+
+int main(){
+
+    float A[0] = {};
+
+    // printf("%f\n", buggy_sum_elements(A, 0));
+    printf("%f\n", sum_elements(A, 0));
+
+}
+```
+
+### Practice Problem 2.26
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/26.png)
+* Sol.)
+  * size_t is defined as an unsigned int as follows.
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/26_size_t_def.png" width="40%">
+</p>
+
+A. When strlen(s) < strlen(t)
+B. An negative integer will appear, but it will be interpreted as an non-negative integer. Thus, the final return will be none-zero.
+C. Cast size_t into signed integers.
+```C
+#include <stdio.h>
+#include <string.h>
+
+int strlonger_wrong(char *s, char *t){
+    return strlen(s) - strlen(t) > 0;
+}
+
+int strlonger(char *s, char *t){
+    return (int)strlen(s) - (int)strlen(t) > 0;
+}
+
+int main() {
+    char *a = "abc";
+    char *b = "eeee";
+
+    printf("%d\n", strlonger_wrong(a, b));
+    printf("%d\n", strlonger(a, b));
+}
+```
 
 
 
 
 
-
-
-
-Back to [Ch 2.1 Information Storages](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/notes/01.md)
+[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
