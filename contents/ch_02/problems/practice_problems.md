@@ -262,9 +262,9 @@ int main(){
   <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/26_size_t_def.png" width="40%">
 </p>
 
-A. When strlen(s) < strlen(t)
-B. An negative integer will appear, but it will be interpreted as an non-negative integer. Thus, the final return will be none-zero.
-C. Cast size_t into signed integers.
+A. When strlen(s) < strlen(t)  
+B. An negative integer will appear, but it will be interpreted as an non-negative integer. Thus, the final return will be none-zero.  
+C. Cast size_t into signed integers.  
 ```C
 #include <stdio.h>
 #include <string.h>
