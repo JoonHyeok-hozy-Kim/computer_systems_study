@@ -374,7 +374,79 @@ int main(){
 
 ### Practice Problem 2.32
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/32.png)
-* If y = 0x80000000, it is beyond the upper bound of the non-negative signed integer.
+* Sol
+  * If y = 0x80000000, it is beyond the upper bound of the non-negative signed integer.
+
+
+### Practice Problem 2.33
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/33.png)
+
+
+### Practice Problem 2.34
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/34.png)
+
+
+### Practice Problem 2.35
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/35.png)
+
+1.  
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/35_sol1.png" width="80%">
+</p>
+
+2. 
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/35_sol2.png" width="80%">
+</p>
+
+3.  
+
+<p align="left">
+  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/35_sol3.png" width="80%">
+</p>
+
+
+### Practice Problem 2.36
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/36.png)
+```C
+#include <stdio.h>
+
+typedef long long ll;
+
+int tmult_ok(ll x, ll y){
+    ll p = x * y;
+    return p == (int) p;
+}
+
+int main() {
+    ll x, y;
+
+    x = 1; y = 2;
+    printf("[tmult_ok : %d] %lld * %lld = %lld\n", tmult_ok(x, y), x, y, x*y);
+
+    x = -10; y = -20;
+    printf("[tmult_ok : %d] %lld * %lld = %lld\n", tmult_ok(x, y), x, y, x*y);
+
+    x = 0x8000000000000000; y = 0x8000000000000001;
+    printf("[tmult_ok : %d] %lld * %lld = %lld\n", tmult_ok(x, y), x, y, x*y);
+
+    x = 0x7fffffffffffffff; y = 0x7ffffffffffffffe;
+    printf("[tmult_ok : %d] %lld * %lld = %lld\n", tmult_ok(x, y), x, y, x*y);
+}
+```
+
+
+### Practice Problem 2.37 
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/37.png)  
+  
+A. No. The malloc function will convert asize into 32-bit integer.
+B. Add exception when asize goes beyond 2^32.
+
+
+
+
 
 
 
