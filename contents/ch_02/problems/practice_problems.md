@@ -323,6 +323,60 @@ int main(){
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/28.png)
 
 
+### Practice Problem 2.29
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/29.png)
+
+
+### Practice Problem 2.30
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/30.png)
+* Sol.
+
+```C
+#include <stdio.h>
+
+int tadd_ok(int x, int y){
+    if (x < 0 && y < 0){
+        if (x + y > 0){
+            return 0;
+        }
+    } else if (x > 0 && y > 0){
+        if (x + y < 0){
+            return 0;
+        }
+    }
+    return 1;
+}
+
+int main(){
+    int x, y;
+
+    x = 0x80000000; y = -1;
+    printf("[tadd_ok : %d] %d + %d = %d\n", tadd_ok(x, y), x, y, x+y);
+
+    x = 0xfffff000; y = 0xfffff123;
+    printf("[tadd_ok : %d] %d + %d = %d\n", tadd_ok(x, y), x, y, x+y);
+
+    x = 0x00000001; y = 0x00000002;
+    printf("[tadd_ok : %d] %d + %d = %d\n", tadd_ok(x, y), x, y, x+y);
+
+    x = 0x7fffffff; y = 1;
+    printf("[tadd_ok : %d] %d + %d = %d\n", tadd_ok(x, y), x, y, x+y);
+
+}
+```
+
+
+### Practice Problem 2.31
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/31.png)
+* Sol.)
+  * "sum-x" and "sum-y" may result in overflow again.
+
+
+### Practice Problem 2.32
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/32.png)
+* If y = 0x80000000, it is beyond the upper bound of the non-negative signed integer.
+
+
 
 
 
