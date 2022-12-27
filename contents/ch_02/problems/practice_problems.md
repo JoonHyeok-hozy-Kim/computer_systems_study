@@ -445,6 +445,28 @@ A. No. The malloc function will convert asize into 32-bit integer.
 B. Add exception when asize goes beyond 2^32.
 
 
+### Practice Problem 2.38
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/38.png)  
+
+
+### Practice Problem 2.39
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/39.png)  
+
+
+### Practice Problem 2.40
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/40.png)  
+
+
+### Practice Problem 2.41
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/41.png)
+* Sol.)
+  1. When n = m or n = m+1, choose Form A.
+  2. When n > m+1, choose Form B.  
+* Justification
+  * Consider that 1 takes 1 or 2 shifts and one addition.
+  * 2 takes 2 shifts and one subtraction.
+    * Which may take (n-m+1) shifts and (n-m) additions for Form A.
+
 
 
 
