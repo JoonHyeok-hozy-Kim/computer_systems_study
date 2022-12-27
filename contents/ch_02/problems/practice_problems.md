@@ -468,6 +468,39 @@ B. Add exception when asize goes beyond 2^32.
     * Which may take (n-m+1) shifts and (n-m) additions for Form A.
 
 
+### Practice Problem 2.42
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/42.png)
+```C
+#include <stdio.h>
+
+int div16(int x){
+    int p = (x + 15) >> 4;
+    p += ((x>>31)&1) - 1;
+    return p;
+}
+
+void test_div16(int x){
+    printf("%d / 16 = %d\n", x, div16(x));
+}
+
+int main() {
+    test_div16(15);
+    test_div16(16);
+    test_div16(17);
+    test_div16(-15);
+    test_div16(-16);
+    test_div16(-17);
+}
+```
+
+
+### Practice Problem 2.43
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/43.png)
+
+### Practice Problem 2.44
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/44.png)
+* Sol
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/44sol.png)
 
 
 
