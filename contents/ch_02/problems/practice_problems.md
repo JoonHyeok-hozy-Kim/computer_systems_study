@@ -510,6 +510,9 @@ int main() {
 * Sol.
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/46sol.png)
 
+### Practice Problem 2.47
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/47.png)
+
 
 
 
