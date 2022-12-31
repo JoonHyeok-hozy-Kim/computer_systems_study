@@ -513,6 +513,30 @@ int main() {
 ### Practice Problem 2.47
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/47.png)
 
+### Practice Problem 2.48
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/48.png)
+
+### Practice Problem 2.49
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/49.png)
+
+### Practice Problem 2.50
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/50.png)
+
+### Practice Problem 2.51
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/51.png)
+
+### Practice Problem 2.52
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/52.png)
+* Sol.
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/52sol.png)
+
+
+
+
+
+
+
+
 
 
 
