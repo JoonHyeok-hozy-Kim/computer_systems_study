@@ -533,7 +533,27 @@ int main() {
 
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/52sol.png)
 
+### Practice Problem 2.53
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/53.png)
 
+* Sol.
+```C
+#include <stdio.h>
+
+#define POS_INFINITY 1e400
+#define NEG_INFINITY -POS_INFINITY
+#define NEG_ZERO (-1.0 / POS_INFINITY)
+
+
+int main() {
+    printf("%f\n", POS_INFINITY);
+    printf("%f\n", NEG_INFINITY);
+    printf("%f\n", NEG_ZERO);
+}
+```
+
+### Practice Problem 2.54
+![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/54.png)
 
 
 

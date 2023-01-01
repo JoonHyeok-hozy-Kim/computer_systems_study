@@ -14,6 +14,4 @@ void not_associative_test(float a, float b, float c, float d){
 int main() {
     not_associative_test(3.14, 1e10, -1e10, 2.0);
 
-    printf("%f\n", 1e20 * (1e20 * 1e-20));
-    printf("%f\n", (1e20 * 1e20) * 1e-20);
 }
