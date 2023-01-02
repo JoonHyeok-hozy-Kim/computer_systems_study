@@ -9,7 +9,7 @@
 
 ## 2.56
 #### Try running the code for show_bytes for different sample values.
-* [Sol]()
+* [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/56.c)
 
 
 
