@@ -28,6 +28,16 @@
 * [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/60.c)
 
 
+---
+
+
+![bit_level_rule1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/bit_level_rule1.png)
+![bit_level_rule2](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/bit_level_rule2.png)
+![bit_level_rule3](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/bit_level_rule3.png)
+
+
+---
+
 
 
 
