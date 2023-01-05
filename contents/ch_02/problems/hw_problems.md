@@ -42,6 +42,16 @@
 ![61](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/61.png)
 * [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/61.c)
 
+## 2.62
+![62](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/62.png)
+* [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/62.c)
+
+## 2.63
+![63](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/63_1.png)
+![63](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/63_2.png)
+* [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/63.c)
+
+
 
 
 
