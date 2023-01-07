@@ -109,7 +109,8 @@ B. [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/
 ![75](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/75_1.png)
 ![75](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/75_2.png)
 * [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/75.c)
-  * ![pf](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/75_pf.png)
+
+![pf](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/75_pf.png)
 
 
 
