@@ -147,6 +147,16 @@ D. (1 << 4) - (1 << 7)
 * Sol   
 ![Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/82_sol.png)
 
+## 2.83
+![83](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/83_1.png)
+![83](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/83_2.png)
+* [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/83.c)
+
+## 2.84
+![84](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/84.png)
+* Sol   
+![Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/84_sol.png)
+
 
 
 
