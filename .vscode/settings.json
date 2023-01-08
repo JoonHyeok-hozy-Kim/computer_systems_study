@@ -43,6 +43,7 @@
         "typeinfo": "cpp",
         "queue": "cpp",
         "stdio.h": "c",
-        "61.C": "cpp"
+        "61.C": "cpp",
+        "81.C": "cpp"
     }
 }
