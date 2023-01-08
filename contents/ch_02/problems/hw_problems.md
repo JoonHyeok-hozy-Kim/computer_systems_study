@@ -139,12 +139,12 @@ D. (1 << 4) - (1 << 7)
 ## 2.81
 ![81](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/81_1.png)
 ![81](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/81_2.png)
-* Sol
+* Sol   
 ![81](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/81_sol.png)
 
 ## 2.82
 ![82](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/82.png)
-* Sol
+* Sol   
 ![Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/82_sol.png)
 
 
