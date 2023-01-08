@@ -144,7 +144,8 @@ D. (1 << 4) - (1 << 7)
 
 ## 2.82
 ![82](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/82.png)
-![Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/82_sol.c)
+* Sol
+![Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/82_sol.png)
 
 
 
