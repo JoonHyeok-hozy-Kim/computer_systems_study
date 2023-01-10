@@ -3,7 +3,7 @@
 
 ## Index
 
-<a href="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/note.md">▶ Ch 1. A Tour of Computer Systems</a>
+<a href="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/note.md">\▶ Ch 1. A Tour of Computer Systems</a>
 
 <details>
 <summary>Ch 2. Representing and Manipulating Information</summary>
