@@ -209,11 +209,15 @@ D. (1 << 4) - (1 << 7)
 ![94](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/94.png)
 * [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/94.c)
 
+ 
+## 2.95
+![95](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/95.png)
+* [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/95.c)
 
-
-
-
-
+ 
+## 2.96
+![96](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/96.png)
+* [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/96.c)
 
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
