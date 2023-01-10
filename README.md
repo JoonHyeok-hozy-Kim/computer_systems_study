@@ -24,12 +24,14 @@
 <details>
 <summary>Ch 3. Machine-Level Representation of Programs</summary>
 <p>
+
 |Sub Chapter |Keywords|
 |:-----------|:-------|
 |[3.1 A Historical Perspective](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/01.md)||
 |||
 |||
 |||
+
 </p>   
 </details>
 
