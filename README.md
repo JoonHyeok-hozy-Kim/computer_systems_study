@@ -28,7 +28,8 @@
 |Sub Chapter |Keywords|
 |:-----------|:-------|
 |[3.1 A Historical Perspective](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/01.md)|8086; 80286; i386; i486; Pentium; Core 2; Core i7; IA32; x86-64;|
-|[3.2 Program Encodings](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/02.md)||
+|[3.2 Program Encodings](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/02.md)|machine-level code; instruction set architecture(ISA); program counter(IA32); integer register file; condition code registers; floating-point registers; program memory; gcc; disassembler; optimization; ATT assembly-format; Intel assembly-format;|
+|[3.3 Data Types](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/03.md)||
 
 </p>   
 </details>
