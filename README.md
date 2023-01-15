@@ -31,6 +31,8 @@
 |[3.2 Program Encodings](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/02.md)|machine-level code; instruction set architecture(ISA); program counter(IA32); integer register file; condition code registers; floating-point registers; program memory; gcc; disassembler; optimization; ATT assembly-format; Intel assembly-format;|
 |[3.3 Data Types](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/03.md)|data types; words; double words; quad words; extended-precision; assembly-code suffix;|
 |[3.4 Accessing Information](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/04.md)||
+* [Practice Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice_problems.md)
+* [Homework Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/hw_problems.md)   
 
 </p>   
 </details>
