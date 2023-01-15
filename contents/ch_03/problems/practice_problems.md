@@ -38,5 +38,15 @@
   }
   ```
 
+### Practice Problem 3.6
+![Practice Problem 3.6](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/06.png)
+
+
+
+
+
+
+
+
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
