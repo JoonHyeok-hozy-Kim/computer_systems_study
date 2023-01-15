@@ -30,7 +30,9 @@
 |[3.1 A Historical Perspective](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/01.md)|8086; 80286; i386; i486; Pentium; Core 2; Core i7; IA32; x86-64;|
 |[3.2 Program Encodings](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/02.md)|machine-level code; instruction set architecture(ISA); program counter(IA32); integer register file; condition code registers; floating-point registers; program memory; gcc; disassembler; optimization; ATT assembly-format; Intel assembly-format;|
 |[3.3 Data Types](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/03.md)|data types; words; double words; quad words; extended-precision; assembly-code suffix;|
-|[3.4 Accessing Information](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/04.md)||
+|[3.4 Accessing Information](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/04.md)|register; operands; immediate; memory reference; effective address; addressing modes; immediate offset; base register; index register; scale factor; data movement instruction; instruction class; program stack;|
+|[3.5 Arithmetic and Logical Operations](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/05.md)||
+
 * [Practice Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice_problems.md)
 * [Homework Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/hw_problems.md)   
 
