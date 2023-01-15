@@ -41,6 +41,21 @@
 ### Practice Problem 3.6
 ![Practice Problem 3.6](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/06.png)
 
+### Practice Problem 3.7
+![Practice Problem 3.7](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/07.png)
+
+### Practice Problem 3.8
+![Practice Problem 3.8](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/08.png)
+* Sol.
+  ```assembly
+  movl 8(%ebp), %eax
+  sall $2, %eax
+
+  movl 12(%ebp), %ecx
+  sarl (%cl), %eax
+
+  ```
+
 
 
 
