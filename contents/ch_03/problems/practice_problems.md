@@ -75,6 +75,20 @@ C.
   * 1 byte for "xor r32, r/m32
   * 1 byte for operand
 
+### Practice Problem 3.11
+![Practice Problem 3.11](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/11.png)
+* Sol.   
+  ```assembly
+  movl 8(%ebp), %eax
+  xorl %edx, %edx
+  divl 12(%ebp)
+  movl %eax, 4(%esp)
+  movl %edx, %esp
+  ```
+
+### Practice Problem 3.12
+![Practice Problem 3.12](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/12.png)
+![Practice Problem 3.12](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/12b.png) 
 
 
 
