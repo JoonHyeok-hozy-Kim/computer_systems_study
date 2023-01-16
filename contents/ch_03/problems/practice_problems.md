@@ -56,6 +56,24 @@
 
   ```
 
+### Practice Problem 3.9
+![Practice Problem 3.9](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/09.png)
+
+### Practice Problem 3.10
+![Practice Problem 3.10](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/10.png)
+* Sol.   
+A. The value on %edx becomes 0.   
+B.   
+  ```assembly 
+  movl $0, %edx 
+  ```   
+C.   
+* "mov $0, %edx" requires 5 bytes.
+  * 1 byte for "mov imm32, %edx" 
+  * 4 bytes of $0 (immediate)
+* "xor %edx, %edx" requires 2 bytes.
+  * 1 byte for "xor r32, r/m32
+  * 1 byte for operand
 
 
 
