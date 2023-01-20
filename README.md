@@ -31,7 +31,9 @@
 |[3.2 Program Encodings](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/02.md)|machine-level code; instruction set architecture(ISA); program counter(IA32); integer register file; condition code registers; floating-point registers; program memory; gcc; disassembler; optimization; ATT assembly-format; Intel assembly-format;|
 |[3.3 Data Types](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/03.md)|data types; words; double words; quad words; extended-precision; assembly-code suffix;|
 |[3.4 Accessing Information](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/04.md)|register; operands; immediate; memory reference; effective address; addressing modes; immediate offset; base register; index register; scale factor; data movement instruction; instruction class; program stack;|
-|[3.5 Arithmetic and Logical Operations](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/05.md)||
+|[3.5 Arithmetic and Logical Operations](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/05.md)|leal(load effect address); leal; unary operation; incl; decl; binary operation; add; sub; imul; shift operation; sal; shl; sar; shr; "xor" vs "mov 0"; full 64-bit product of two 32-bit numbers; mull; imull; integer division; idvl; cltd;|
+|[3.6 Control](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/06.md)||
+
 
 * [Practice Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice_problems.md)
 * [Homework Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/hw_problems.md)   
