@@ -93,6 +93,9 @@ C.
 ### Practice Problem 3.13
 ![Practice Problem 3.13](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/13.png)
 
+### Practice Problem 3.14
+![Practice Problem 3.14](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/14.png)
+
 
 
 
