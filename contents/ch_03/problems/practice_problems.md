@@ -99,6 +99,72 @@ C.
 ### Practice Problem 3.15
 ![Practice Problem 3.15](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/15.png)
 
+### Practice Problem 3.16
+![Practice Problem 3.16](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/16.png)
+* Sol.
+A.
+```c
+void cond(int a, int *p){
+  if (p){
+    goto done;    
+  }
+  if (a <= 0){
+    *p += a;
+  }
+done:
+  return;
+}
+```
+
+B. Due to && operation, we should check two conditions.
+
+
+
+### Practice Problem 3.17
+![Practice Problem 3.17](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/17.png)
+* Sol.
+A. 
+```c
+int absdiff(int x, int y){
+  int result;
+  if (x < y){
+    goto x_l_y;
+  }
+  result = y-x;
+  goto done;
+x_l_y:
+  result = x-y;
+done:
+  return result;
+}
+```
+
+B. In specific cases the result of the condition is not equivalent.
+
+
+### Practice Problem 3.18
+![Practice Problem 3.18](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/18.png)
+* Sol
+  ```c
+  int test(int x, int y){
+    int val = x;
+    if (x+3 < 0){
+      if (x - y > 0){
+        val *= y;
+      } else {
+        val = x + y;
+      }
+    } else {
+      if (x-2 <= 0){
+        val ^= y;
+      } else {
+        val -= y;
+      }
+    }
+    return val;
+  }
+  ```
+
 
 
 
