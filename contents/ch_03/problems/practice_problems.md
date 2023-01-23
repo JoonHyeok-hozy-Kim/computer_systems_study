@@ -166,7 +166,58 @@ B. In specific cases the result of the condition is not equivalent.
   ```
 
 
+### Practice Problem 3.19
+![Practice Problem 3.19](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/19.png)
+* Sol
+A. 1932053504
+  ```c
+  #include <stdio.h>
 
+  int main(){
+      int num = 1;
+      int n = 2;
+      while (num < num*n){
+          num *= n;
+          printf("%d\n", num);
+          n++;
+      }
+
+      printf("Final result : %d\n", num);
+  }
+  ```
+
+B. 2432902008176640000
+```c
+#include <stdio.h>
+
+int main(){
+    long long lnum = 1;
+    long long ln = 2;
+    while (lnum < lnum*ln){
+        lnum *= ln;
+        printf("%lld\n", lnum);
+        ln++;
+    }
+
+    printf("Final result : %lld\n", lnum);
+}
+```
+
+
+### Practice Problem 3.20
+![Practice Problem 3.20](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/20.png)
+* Sol.
+  1. Table
+     |Register|Variable|Initially|
+     |:------:|:------:|:-------:|
+     |%eax|x|x|
+     |%ecx|y|y|
+     |%edx|n|n|
+  2. 
+     |Statement|C line #|Assembly line #|
+     |:-------|:------:|:-------:|
+     |test-expr|6|9, 11|
+     |body-statement|3 ~ 5|6 ~ 7|
 
 
 
