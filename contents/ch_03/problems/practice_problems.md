@@ -253,6 +253,24 @@ int main(){
      ```
 
 
+### Practice Problem 3.22
+![Practice Problem 3.22](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/22.png)
+* Sol.
+  1. C code
+     ```c
+     int fun_a(unsigned x){
+      int val = 0;
+      while (x > 0){
+        val ^= x;
+        x >>= 1;
+      }
+      val &= 1;
+      return val;
+     }
+     ```
+  2. If the number of ones in the binary form is odd, fun_a() returns 1. Else, it returns 0.
+
+
 
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
