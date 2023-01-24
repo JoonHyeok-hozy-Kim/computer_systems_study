@@ -288,6 +288,39 @@ int main(){
   2. fun_b() returns the reversed binary value of the input.
 
 
+### Practice Problem 3.24
+![Practice Problem 3.24](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/24.png)
+* Sol.
+  1. Do-while application.
+     ```c
+     int sum = 0;
+     int i = -1;
+     do {
+      i++;
+      if (i & 1){
+        continue;
+      }
+      sum += i;
+     } while (i < 10);     
+     ```
+  2. Safer goto version
+     ```c
+     int sum = 0;
+     int i = -1;
+     loop:
+      if (i >= 10){
+        goto done;
+      }
+      i++;
+      if (i & 1){
+        goto loop;
+      }
+      sum += i;     
+     done:
+     ```
+
+
+
 
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
