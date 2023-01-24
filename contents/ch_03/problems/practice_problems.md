@@ -270,6 +270,23 @@ int main(){
      ```
   2. If the number of ones in the binary form is odd, fun_a() returns 1. Else, it returns 0.
 
+### Practice Problem 3.23
+![Practice Problem 3.23](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/23.png)
+* Sol.
+  1. C code
+     ```c
+     int fun_b(unsigned x){
+      int val = 0;
+      int i;
+      for (i=0; i<32; i++){
+        val = (x + 1) | 2*val;
+        x >>= 1;
+      }
+      return val;
+     }
+     ```
+  2. fun_b() returns the reversed binary value of the input.
+
 
 
 
