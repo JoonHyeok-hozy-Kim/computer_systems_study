@@ -220,6 +220,39 @@ int main(){
      |body-statement|3 ~ 5|6 ~ 7|
 
 
+### Practice Problem 3.21
+![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/21.png)
+![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/22.png)
+* Sol.
+  1. The value of (a+b) is assigned to %edx.
+  2. Table
+     |Register|Variable|Initially|
+     |:------:|:------:|:-------:|
+     |%eax|result|1|
+     |%ebx|b|b|
+     |%ecx|a|a|
+     |%edx|(new variable)|(a+b)|
+  3. Annotated above.
+  4. goto code.
+     ```c
+     int loop_goto(int a, int b){
+      int result = 1;
+      if (a < b){
+        int c = a+b;
+        result = 1;
+      }
+      loop:
+        result *= c;
+        a++;
+        c++;
+        if (b - a > 0){
+          goto loop;
+        }
+      return result;
+     }
+     ```
+
+
 
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
