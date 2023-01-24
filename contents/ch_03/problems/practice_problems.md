@@ -221,8 +221,8 @@ int main(){
 
 
 ### Practice Problem 3.21
-![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/21.png)
-![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/22.png)
+![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/21_1.png)
+![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/21_2.png)
 * Sol.
   1. The value of (a+b) is assigned to %edx.
   2. Table
