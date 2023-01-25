@@ -320,6 +320,13 @@ int main(){
      ```
 
 
+### Practice Problem 3.25
+![Practice Problem 3.25](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/25.png)
+
+### Practice Problem 3.26
+![Practice Problem 3.26](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/26.png)
+
+
 
 
 
