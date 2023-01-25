@@ -325,8 +325,28 @@ int main(){
 
 ### Practice Problem 3.26
 ![Practice Problem 3.26](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/26.png)
+* Sol.
+  1. Division by 4. Bias, (2^k - 1), is added for the negative number case.
+  2. Annotated above.
 
-
+### Practice Problem 3.27
+![Practice Problem 3.27](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/27.png)
+* Sol.
+  ```c
+  int test(int x, int y){
+    int val = x ^ y;
+    if (y <= 0){
+      if (y >= -2){
+        val = 4*x;
+      } else {
+        val = x + y;
+      }
+    } else if (x < y){
+      val = x - y;
+    }
+    return val;
+  }
+  ```
 
 
 
