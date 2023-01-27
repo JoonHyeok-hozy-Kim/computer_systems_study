@@ -43,14 +43,19 @@
 </details>
 
 
+
+
+
 <details>
 <summary>Ch N. new_chapter </summary>
 <p>
+
 |Sub Chapter |Keywords|
 |:-----------|:-------|
 |[N.1 sub_chapter](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/01.md)||
 |||
 |||
 |||
+
 </p>   
 </details>
