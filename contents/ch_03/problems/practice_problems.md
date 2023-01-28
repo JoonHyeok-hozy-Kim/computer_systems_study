@@ -390,5 +390,18 @@ int main(){
   }
   ```
 
+### Practice Problem 3.30
+![Practice Problem 3.30](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/30.png)
+* Sol.
+  1. %eax is set to the address of the popl instruction.
+  2. This is not a true procedure call, since the control follows the same ordering as the instructions and the return address is popped from the stack.
+  3. This is the only way in IA32 to get the value of the program counter into an integer register.
+
+
+### Practice Problem 3.31
+![Practice Problem 3.31](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/31.png)
+* Sol.
+  * It's because the values in %ebx, %esi, %edi are stored in the program stack and recovered when the procedure is over. On the other hand, the data on the caller-save registers are not backed-up.
+
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
