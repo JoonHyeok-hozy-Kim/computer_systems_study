@@ -406,6 +406,19 @@ int main(){
 
 ### Practice Problem 3.32
 ![Practice Problem 3.32](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/32.png)
+* Sol
+  ```c
+  int fun(short m, char n, int *p, int x){
+    int d = (int) n;
+    int c = (int) m;
+    *p = d;
+    return x - c
+  }
+  ```
+
+### Practice Problem 3.33
+![Practice Problem 3.33](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/33.png)
+
 
 
 
