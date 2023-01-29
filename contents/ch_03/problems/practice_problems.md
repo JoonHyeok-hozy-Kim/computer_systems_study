@@ -418,7 +418,15 @@ int main(){
 
 ### Practice Problem 3.33
 ![Practice Problem 3.33](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/33.png)
-
+* Sol
+  1. 0x80003C
+     * why?) Decrement 4 from %esp : 0x800040 - 4 = 0x80003C.
+  2. 0x800014
+     * why?) 40 = 0x28. Thus, 0x80003C - 0x28 = 0x800014.
+  3. 0x800036 for x and 0x800032 for y
+  4. image below...   
+     ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/33sol.png)
+  5. 0x800020 ~ 0x800030
 
 
 
