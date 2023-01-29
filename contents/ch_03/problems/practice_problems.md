@@ -404,4 +404,11 @@ int main(){
   * It's because the values in %ebx, %esi, %edi are stored in the program stack and recovered when the procedure is over. On the other hand, the data on the caller-save registers are not backed-up.
 
 
+### Practice Problem 3.32
+![Practice Problem 3.32](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/32.png)
+
+
+
+
+
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
