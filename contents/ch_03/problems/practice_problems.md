@@ -445,7 +445,7 @@ int main(){
       return rv + (x & 1);
      }
      ```
-  3. Sum of all the bits in the number.
+  3. Sum of every bits in a number.
 
 
 
