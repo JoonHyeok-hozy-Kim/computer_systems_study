@@ -416,6 +416,7 @@ int main(){
   }
   ```
 
+
 ### Practice Problem 3.33
 ![Practice Problem 3.33](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/33.png)
 * Sol
@@ -427,6 +428,24 @@ int main(){
   4. image below...   
      ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/33sol.png)
   5. 0x800020 ~ 0x800030
+
+
+### Practice Problem 3.34
+![Practice Problem 3.34](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/34.png)
+* Sol.
+  1. the input parameter x
+  2. C code
+     ```c
+     int rfun(unsigned x){
+      if (x == 0){
+        return 0;
+      }
+      unsigned nx = x >> 1;
+      int rv = rfun(nx);
+      return rv + (x & 1);
+     }
+     ```
+  3. Sum of all the bits in the number.
 
 
 
