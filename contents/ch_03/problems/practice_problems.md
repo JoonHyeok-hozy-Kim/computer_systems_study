@@ -448,6 +448,14 @@ int main(){
   3. Sum of every bits in a number.
 
 
+### Practice Problem 3.35
+![Practice Problem 3.35](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/35.png)
+
+
+### Practice Problem 3.36
+![Practice Problem 3.36](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/36.png)
+
+
 
 
 
