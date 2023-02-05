@@ -456,6 +456,12 @@ int main(){
 ![Practice Problem 3.36](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/36.png)
 
 
+### Practice Problem 3.37
+![Practice Problem 3.37](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/37.png)
+* Sol.
+  * M = 5, N = 7
+
+
 
 
 
