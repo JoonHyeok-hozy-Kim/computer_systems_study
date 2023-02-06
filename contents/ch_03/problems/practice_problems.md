@@ -462,6 +462,22 @@ int main(){
   * M = 5, N = 7
 
 
+### Practice Problem 3.38
+![Practice Problem 3.38](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/38.png)
+* Sol.
+  ```c
+  void fix_set_diag_opt(fix_matrix A, int val){
+    int *Aptr = &A[0][0];
+    int i;
+
+    for (i=0; i<N; i++){
+      *Aptr = val;
+      Aptr += N;
+      Aptr++;
+    }
+  }
+  ```
+
 
 
 
