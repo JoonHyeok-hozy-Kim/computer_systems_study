@@ -479,6 +479,18 @@ int main(){
   ```
 
 
+### Practice Problem 3.39
+![Practice Problem 3.39](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/39_1.png)
+![Practice Problem 3.39](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/39_2.png)
+* Sol.
+  ```c
+  void sp_init(struct prob *sp){
+    sp->s.x = sp->s.y;
+    sp->p = &(sp->s.x);
+    sp->next = sp;
+  }
+  ```
+
 
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
