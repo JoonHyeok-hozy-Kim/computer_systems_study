@@ -492,5 +492,11 @@ int main(){
   ```
 
 
+### Practice Problem 3.40
+![Practice Problem 3.40](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/40_1.png)
+![Practice Problem 3.40](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/40_2.png)
+![Practice Problem 3.40](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/40_3.png)
+
+
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
