@@ -498,5 +498,23 @@ int main(){
 ![Practice Problem 3.40](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/40_3.png)
 
 
+### Practice Problem 3.41
+![Practice Problem 3.41](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/41.png)
+* Sol.
+  1. Total 16 bytes   
+     |int i|char c|int j|char d|
+     |-----|------|-----|------|
+     |0|4|8|12|
+  2. Total 10 bytes   
+     |int i|char c|char d|int j|
+     |-----|------|------|-----|
+     |0|4|5|6|
+
+286
+
+### Practice Problem 3.42
+![Practice Problem 3.42](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/42.png)
+
+
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
