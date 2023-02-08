@@ -525,7 +525,17 @@ int main(){
 
 ### ◈ Practice Problem 3.42
 ![Practice Problem 3.42](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/42.png)
-
+* Sol.
+  1. Offsets
+     | |char *a|short b|double c|char d|float e|char f|long long g|void *h|
+     |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+     |Size  |4|**2**|8|1 |4 |1 |8 |4 |
+     |Offset|0|4|**8**|16|20|24|28|36|
+  2. 40 bytes
+  3. If rearranged as follows, the total size can be reduced to 32 bytes.
+     ||char *a|short b|char d|char f|double c|float e|long long g|void *h|
+     |-|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+     |Offset|0|4|6|7|8|16|20|28|
 
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
