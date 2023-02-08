@@ -509,8 +509,19 @@ int main(){
      |int i|char c|char d|int j|
      |-----|------|------|-----|
      |0|4|5|6|
+  3. Total 12 bytes   
+     |short w[0]|short w[1]|short w[2]|char c[0]|char c[1]|char c[2]|
+     |-|-|-|-|-|-|
+     |0|2|4|6|7|8|
+  4. Total 18 bytes   
+     |short w[0]|short w[1]|short w[2]|char *c[0]|char *c[1]|char *c[2]|
+     |-|-|-|-|-|-|
+     |0|2|4|6|10|12|
+  5. Total 36 bytes   
+     |struct P1 a[0]|struct P1 a[1]|struct P1 *p| 
+     |-|-|-|
+     |0|16|32|
 
-286
 
 ### Practice Problem 3.42
 ![Practice Problem 3.42](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/42.png)
