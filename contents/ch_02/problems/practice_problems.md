@@ -1,51 +1,51 @@
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
 
 
-### Practice Problem 2.1
+### ◈ Practice Problem 2.1
 ![Practice Problem 2.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/01.png)
 
-### Practice Problem 2.2
+### ◈ Practice Problem 2.2
 ![Practice Problem 2.2](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/02.png)
 
-### Practice Problem 2.3
+### ◈ Practice Problem 2.3
 ![Practice Problem 2.3](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/03.png)
 
-### Practice Problem 2.4
+### ◈ Practice Problem 2.4
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/04.png)
 
-### Practice Problem 2.5
+### ◈ Practice Problem 2.5
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/05.png)
 
 [:computer: Code](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/05.c)
 
-### Practice Problem 2.6
+### ◈ Practice Problem 2.6
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/06.png)
 
 [:computer: Code](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/06.py)
 
-### Practice Problem 2.7
+### ◈ Practice Problem 2.7
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/07.png)
 
 [:computer: Code](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/07.c)
 
-### Practice Problem 2.8
+### ◈ Practice Problem 2.8
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/08.png)
 
-### Practice Problem 2.9
+### ◈ Practice Problem 2.9
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/09-1.png)
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/09-2.png)
 
-### Practice Problem 2.10
+### ◈ Practice Problem 2.10
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/10.png)
 
 * Sol.) [:computer: Code](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/10.c)
 
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/10-sol.png)
 
-### Practice Problem 2.11
+### ◈ Practice Problem 2.11
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/11.png)
 
-### Practice Problem 2.12
+### ◈ Practice Problem 2.12
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/12.png)
 * Sol.)
 
@@ -80,7 +80,7 @@ int main() {
 
 
 
-### Practice Problem 2.13
+### ◈ Practice Problem 2.13
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/13.png)
 * Sol.)
 
@@ -140,11 +140,11 @@ int main() {
 ```
 
 
-### Practice Problem 2.14
+### ◈ Practice Problem 2.14
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/14.png)
 
 
-### Practice Problem 2.15
+### ◈ Practice Problem 2.15
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/15.png)
 * Sol.
 
@@ -177,32 +177,32 @@ int main() {
 }
 ```
 
-### Practice Problem 2.16
+### ◈ Practice Problem 2.16
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/16.png)
 
-### Practice Problem 2.17
+### ◈ Practice Problem 2.17
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/17.png)
 
-### Practice Problem 2.18
+### ◈ Practice Problem 2.18
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/18.png)
 
-### Practice Problem 2.19
+### ◈ Practice Problem 2.19
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/19.png)
 
-### Practice Problem 2.21
+### ◈ Practice Problem 2.21
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/21.png)
 
-### Practice Problem 2.22
+### ◈ Practice Problem 2.22
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/22.png)
 
-### Practice Problem 2.23
+### ◈ Practice Problem 2.23
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/23.png)
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/23_sol.png)
 
-### Practice Problem 2.24
+### ◈ Practice Problem 2.24
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/24.png)
 
-### Practice Problem 2.25
+### ◈ Practice Problem 2.25
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/25.png)
 * Analysis.)
   * In the loop condition, there is a comparison operation between signed and unsigned integers.
@@ -253,7 +253,7 @@ int main(){
 }
 ```
 
-### Practice Problem 2.26
+### ◈ Practice Problem 2.26
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/26.png)
 * Sol.)
   * size_t is defined as an unsigned int as follows.
@@ -286,7 +286,7 @@ int main() {
 }
 ```
 
-### Practice Problem 2.27
+### ◈ Practice Problem 2.27
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/27.png)
 * Sol.)
 ```C
@@ -319,15 +319,15 @@ int main(){
 }
 ```
 
-### Practice Problem 2.28
+### ◈ Practice Problem 2.28
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/28.png)
 
 
-### Practice Problem 2.29
+### ◈ Practice Problem 2.29
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/29.png)
 
 
-### Practice Problem 2.30
+### ◈ Practice Problem 2.30
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/30.png)
 * Sol.
 
@@ -366,27 +366,27 @@ int main(){
 ```
 
 
-### Practice Problem 2.31
+### ◈ Practice Problem 2.31
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/31.png)
 * Sol.)
   * "sum-x" and "sum-y" may result in overflow again.
 
 
-### Practice Problem 2.32
+### ◈ Practice Problem 2.32
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/32.png)
 * Sol
   * If y = 0x80000000, it is beyond the upper bound of the non-negative signed integer.
 
 
-### Practice Problem 2.33
+### ◈ Practice Problem 2.33
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/33.png)
 
 
-### Practice Problem 2.34
+### ◈ Practice Problem 2.34
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/34.png)
 
 
-### Practice Problem 2.35
+### ◈ Practice Problem 2.35
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/35.png)
 
 1.  
@@ -408,7 +408,7 @@ int main(){
 </p>
 
 
-### Practice Problem 2.36
+### ◈ Practice Problem 2.36
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/36.png)
 ```C
 #include <stdio.h>
@@ -438,26 +438,26 @@ int main() {
 ```
 
 
-### Practice Problem 2.37 
+### ◈ Practice Problem 2.37 
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/37.png)  
   
 A. No. The malloc function will convert asize into 32-bit integer.
 B. Add exception when asize goes beyond 2^32.
 
 
-### Practice Problem 2.38
+### ◈ Practice Problem 2.38
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/38.png)  
 
 
-### Practice Problem 2.39
+### ◈ Practice Problem 2.39
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/39.png)  
 
 
-### Practice Problem 2.40
+### ◈ Practice Problem 2.40
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/40.png)  
 
 
-### Practice Problem 2.41
+### ◈ Practice Problem 2.41
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/41.png)
 * Sol.)
   1. When n = m or n = m+1, choose Form A.
@@ -468,7 +468,7 @@ B. Add exception when asize goes beyond 2^32.
     * Which may take (n-m+1) shifts and (n-m) additions for Form A.
 
 
-### Practice Problem 2.42
+### ◈ Practice Problem 2.42
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/42.png)
 ```C
 #include <stdio.h>
@@ -494,46 +494,46 @@ int main() {
 ```
 
 
-### Practice Problem 2.43
+### ◈ Practice Problem 2.43
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/43.png)
 
-### Practice Problem 2.44
+### ◈ Practice Problem 2.44
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/44.png)
 * Sol
 
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/44sol.png)
 
-### Practice Problem 2.45
+### ◈ Practice Problem 2.45
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/45.png)
 
-### Practice Problem 2.46
+### ◈ Practice Problem 2.46
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/46.png)
 * Sol.
 
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/46sol.png)
 
-### Practice Problem 2.47
+### ◈ Practice Problem 2.47
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/47.png)
 
-### Practice Problem 2.48
+### ◈ Practice Problem 2.48
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/48.png)
 
-### Practice Problem 2.49
+### ◈ Practice Problem 2.49
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/49.png)
 
-### Practice Problem 2.50
+### ◈ Practice Problem 2.50
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/50.png)
 
-### Practice Problem 2.51
+### ◈ Practice Problem 2.51
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/51.png)
 
-### Practice Problem 2.52
+### ◈ Practice Problem 2.52
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/52.png)
 * Sol.
 
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/52sol.png)
 
-### Practice Problem 2.53
+### ◈ Practice Problem 2.53
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/53.png)
 
 * Sol.
@@ -552,7 +552,7 @@ int main() {
 }
 ```
 
-### Practice Problem 2.54
+### ◈ Practice Problem 2.54
 ![](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/practice_problems/54.png)
 
 

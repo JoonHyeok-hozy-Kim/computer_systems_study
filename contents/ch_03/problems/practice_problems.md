@@ -1,10 +1,10 @@
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
 
 
-### Practice Problem 3.1
+### ◈ Practice Problem 3.1
 ![Practice Problem 3.1](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/01.png)
 
-### Practice Problem 3.2
+### ◈ Practice Problem 3.2
 ![Practice Problem 3.2](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/02.png)
 * Sol.
   ```assembly
@@ -17,13 +17,13 @@
   popl %edi
   ```
 
-### Practice Problem 3.3
+### ◈ Practice Problem 3.3
 ![Practice Problem 3.3](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/03.png)
 
-### Practice Problem 3.4
+### ◈ Practice Problem 3.4
 ![Practice Problem 3.4](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/04.png)
 
-### Practice Problem 3.5
+### ◈ Practice Problem 3.5
 ![Practice Problem 3.5](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/05.png)
 * Sol.
   ```c
@@ -38,13 +38,13 @@
   }
   ```
 
-### Practice Problem 3.6
+### ◈ Practice Problem 3.6
 ![Practice Problem 3.6](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/06.png)
 
-### Practice Problem 3.7
+### ◈ Practice Problem 3.7
 ![Practice Problem 3.7](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/07.png)
 
-### Practice Problem 3.8
+### ◈ Practice Problem 3.8
 ![Practice Problem 3.8](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/08.png)
 * Sol.
   ```assembly
@@ -56,10 +56,10 @@
 
   ```
 
-### Practice Problem 3.9
+### ◈ Practice Problem 3.9
 ![Practice Problem 3.9](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/09.png)
 
-### Practice Problem 3.10
+### ◈ Practice Problem 3.10
 ![Practice Problem 3.10](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/10.png)
 * Sol.   
 A. The value on %edx becomes 0.   
@@ -75,7 +75,7 @@ C.
   * 1 byte for "xor r32, r/m32
   * 1 byte for operand
 
-### Practice Problem 3.11
+### ◈ Practice Problem 3.11
 ![Practice Problem 3.11](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/11.png)
 * Sol.   
   ```assembly
@@ -86,20 +86,20 @@ C.
   movl %edx, %esp
   ```
 
-### Practice Problem 3.12
+### ◈ Practice Problem 3.12
 ![Practice Problem 3.12](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/12.png)
 ![Practice Problem 3.12](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/12b.png) 
 
-### Practice Problem 3.13
+### ◈ Practice Problem 3.13
 ![Practice Problem 3.13](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/13.png)
 
-### Practice Problem 3.14
+### ◈ Practice Problem 3.14
 ![Practice Problem 3.14](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/14.png)
 
-### Practice Problem 3.15
+### ◈ Practice Problem 3.15
 ![Practice Problem 3.15](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/15.png)
 
-### Practice Problem 3.16
+### ◈ Practice Problem 3.16
 ![Practice Problem 3.16](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/16.png)
 * Sol.
 A.
@@ -120,7 +120,7 @@ B. Due to && operation, we should check two conditions.
 
 
 
-### Practice Problem 3.17
+### ◈ Practice Problem 3.17
 ![Practice Problem 3.17](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/17.png)
 * Sol.
 A. 
@@ -142,7 +142,7 @@ done:
 B. In specific cases the result of the condition is not equivalent.
 
 
-### Practice Problem 3.18
+### ◈ Practice Problem 3.18
 ![Practice Problem 3.18](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/18.png)
 * Sol
   ```c
@@ -166,7 +166,7 @@ B. In specific cases the result of the condition is not equivalent.
   ```
 
 
-### Practice Problem 3.19
+### ◈ Practice Problem 3.19
 ![Practice Problem 3.19](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/19.png)
 * Sol
 A. 1932053504
@@ -204,7 +204,7 @@ int main(){
 ```
 
 
-### Practice Problem 3.20
+### ◈ Practice Problem 3.20
 ![Practice Problem 3.20](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/20.png)
 * Sol.
   1. Table
@@ -220,7 +220,7 @@ int main(){
      |body-statement|3 ~ 5|6 ~ 7|
 
 
-### Practice Problem 3.21
+### ◈ Practice Problem 3.21
 ![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/21_1.png)
 ![Practice Problem 3.21](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/21_2.png)
 * Sol.
@@ -253,7 +253,7 @@ int main(){
      ```
 
 
-### Practice Problem 3.22
+### ◈ Practice Problem 3.22
 ![Practice Problem 3.22](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/22.png)
 * Sol.
   1. C code
@@ -270,7 +270,7 @@ int main(){
      ```
   2. If the number of ones in the binary form is odd, fun_a() returns 1. Else, it returns 0.
 
-### Practice Problem 3.23
+### ◈ Practice Problem 3.23
 ![Practice Problem 3.23](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/23.png)
 * Sol.
   1. C code
@@ -288,7 +288,7 @@ int main(){
   2. fun_b() returns the reversed binary value of the input.
 
 
-### Practice Problem 3.24
+### ◈ Practice Problem 3.24
 ![Practice Problem 3.24](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/24.png)
 * Sol.
   1. Do-while application.
@@ -320,16 +320,16 @@ int main(){
      ```
 
 
-### Practice Problem 3.25
+### ◈ Practice Problem 3.25
 ![Practice Problem 3.25](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/25.png)
 
-### Practice Problem 3.26
+### ◈ Practice Problem 3.26
 ![Practice Problem 3.26](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/26.png)
 * Sol.
   1. Division by 4. Bias, (2^k - 1), is added for the negative number case.
   2. Annotated above.
 
-### Practice Problem 3.27
+### ◈ Practice Problem 3.27
 ![Practice Problem 3.27](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/27.png)
 * Sol.
   ```c
@@ -348,12 +348,12 @@ int main(){
   }
   ```
 
-### Practice Problem 3.28
+### ◈ Practice Problem 3.28
 ![Practice Problem 3.28](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/28.png)
 ![Practice Problem 3.28 sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/28_sol.png)
 
 
-### Practice Problem 3.29
+### ◈ Practice Problem 3.29
 
 <table>
   <tr>
@@ -390,7 +390,7 @@ int main(){
   }
   ```
 
-### Practice Problem 3.30
+### ◈ Practice Problem 3.30
 ![Practice Problem 3.30](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/30.png)
 * Sol.
   1. %eax is set to the address of the popl instruction.
@@ -398,13 +398,13 @@ int main(){
   3. This is the only way in IA32 to get the value of the program counter into an integer register.
 
 
-### Practice Problem 3.31
+### ◈ Practice Problem 3.31
 ![Practice Problem 3.31](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/31.png)
 * Sol.
   * It's because the values in %ebx, %esi, %edi are stored in the program stack and recovered when the procedure is over. On the other hand, the data on the caller-save registers are not backed-up.
 
 
-### Practice Problem 3.32
+### ◈ Practice Problem 3.32
 ![Practice Problem 3.32](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/32.png)
 * Sol
   ```c
@@ -417,7 +417,7 @@ int main(){
   ```
 
 
-### Practice Problem 3.33
+### ◈ Practice Problem 3.33
 ![Practice Problem 3.33](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/33.png)
 * Sol
   1. 0x80003C
@@ -430,7 +430,7 @@ int main(){
   5. 0x800020 ~ 0x800030
 
 
-### Practice Problem 3.34
+### ◈ Practice Problem 3.34
 ![Practice Problem 3.34](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/34.png)
 * Sol.
   1. the input parameter x
@@ -448,21 +448,21 @@ int main(){
   3. Sum of every bits in a number.
 
 
-### Practice Problem 3.35
+### ◈ Practice Problem 3.35
 ![Practice Problem 3.35](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/35.png)
 
 
-### Practice Problem 3.36
+### ◈ Practice Problem 3.36
 ![Practice Problem 3.36](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/36.png)
 
 
-### Practice Problem 3.37
+### ◈ Practice Problem 3.37
 ![Practice Problem 3.37](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/37.png)
 * Sol.
   * M = 5, N = 7
 
 
-### Practice Problem 3.38
+### ◈ Practice Problem 3.38
 ![Practice Problem 3.38](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/38.png)
 * Sol.
   ```c
@@ -479,7 +479,7 @@ int main(){
   ```
 
 
-### Practice Problem 3.39
+### ◈ Practice Problem 3.39
 ![Practice Problem 3.39](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/39_1.png)
 ![Practice Problem 3.39](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/39_2.png)
 * Sol.
@@ -492,13 +492,13 @@ int main(){
   ```
 
 
-### Practice Problem 3.40
+### ◈ Practice Problem 3.40
 ![Practice Problem 3.40](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/40_1.png)
 ![Practice Problem 3.40](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/40_2.png)
 ![Practice Problem 3.40](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/40_3.png)
 
 
-### Practice Problem 3.41
+### ◈ Practice Problem 3.41
 ![Practice Problem 3.41](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/41.png)
 * Sol.
   1. Total 16 bytes   
@@ -523,7 +523,7 @@ int main(){
      |0|16|32|
 
 
-### Practice Problem 3.42
+### ◈ Practice Problem 3.42
 ![Practice Problem 3.42](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/42.png)
 
 
