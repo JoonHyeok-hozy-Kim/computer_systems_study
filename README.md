@@ -35,7 +35,8 @@
 |[3.6 Control](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/06.md)|condition code; carry flag; zero flag; sign flag; overflow flag; comparison instructions (CMP); test instructions (TEST); SET Instructions; jump instruction; label; direct jump; indirect jump; encodings for jump; PC relative (Program Counter Relative); goto code; do-while loop; while loop; for loop; conditional transfer of control; conditional transfer of data; conditional move; switch statement; jump table; rodata(Read Only Data);|
 |[3.7 Procedures](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/07.md)|procedure; program stack; stack frame; frame pointer; stack pointer; allocation; deallocation; return address; call; ret; leave; caller-save registers; callee-save registers;|
 |[3.8 Array Allocation and Access](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/08.md)|array; nested array; fixed-size arrays; variable-size arrays; register spilling;|
-|[3.9 Heterogeneous Data Structures](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/09.md)||
+|[3.9 Heterogeneous Data Structures](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/09.md)|struct; union; alignment restriction;|
+|[3.10 Understanding Pointers](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/10.md)|pointer; function pointer(functor);|
 
 
 * [Practice Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice_problems.md)
