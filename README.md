@@ -37,6 +37,7 @@
 |[3.8 Array Allocation and Access](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/08.md)|array; nested array; fixed-size arrays; variable-size arrays; register spilling;|
 |[3.9 Heterogeneous Data Structures](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/09.md)|struct; union; alignment restriction;|
 |[3.10 Understanding Pointers](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/10.md)|pointer; function pointer(functor);|
+|[3.11 GDB Debugger](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/11.md)|GDB Debugger;|
 
 
 * [Practice Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice_problems.md)
