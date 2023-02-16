@@ -538,7 +538,7 @@ int main(){
      |Offset|0|4|6|7|8|16|20|28|
 
 
-### ◈ Practice Problem 3.42
+### ◈ Practice Problem 3.43
 ![Practice Problem 3.43](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/43_1.png)
 ![Practice Problem 3.43](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/43_2.png)
 * Sol.
