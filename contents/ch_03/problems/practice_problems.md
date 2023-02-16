@@ -541,7 +541,13 @@ int main(){
 ### ◈ Practice Problem 3.43
 ![Practice Problem 3.43](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/43_1.png)
 ![Practice Problem 3.43](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/43_2.png)
+
+
+### ◈ Practice Problem 3.44
+![Practice Problem 3.44](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/44.png)
 * Sol.
+  1. 0xffffd754 - 0xffffb754 = 0x00002000 = 2^(4 * 3) * 2 = 2^13
+  2. 2^6 = 64
 
 
 
