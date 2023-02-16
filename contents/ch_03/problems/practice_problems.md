@@ -550,5 +550,28 @@ int main(){
   2. 2^6 = 64
 
 
+### ◈ Practice Problem 3.45
+![Practice Problem 3.45](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/45_1.png)
+![Practice Problem 3.45](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/45_2.png)
+* Sol.
+  1. -
+     1. Without protector
+        * buf : -20 relative to %ebp
+        * v : -8 relative to %ebp
+     2. With protector
+        * buf : -20 relative to %ebp
+        * v : -24 relative to %ebp
+        * canary : -8 relative to %ebp
+  2. -
+     ```c
+     int intlen(int x){
+      int v;
+      v = x;
+      char buf[12];
+      iptoa(buf, &v);
+      return len(buf);
+     }
+     ```
+
 
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
