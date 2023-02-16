@@ -38,7 +38,10 @@
 |[3.9 Heterogeneous Data Structures](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/09.md)|struct; union; alignment restriction;|
 |[3.10 Understanding Pointers](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/10.md)|pointer; function pointer(functor);|
 |[3.11 GDB Debugger](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/11.md)|GDB Debugger;|
-|[3.12 ](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/12.md)||
+|[3.12 Out-of-Bounds Memory References and Buffer Overflow](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/12.md)||
+
+
+
 
 
 * [Practice Problems](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice_problems.md)
