@@ -574,4 +574,67 @@ int main(){
      ```
 
 
+### ◈ Practice Problem 3.46
+![Practice Problem 3.46](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/46.png)
+* Sol
+  ```c
+  #include <stdio.h>
+
+  int problem_A(){
+      double tera_by_mega_256 = 1000000*256;
+      tera_by_mega_256 *= 8000;
+      int years_cnt = 0;
+      while (tera_by_mega_256 > 1000){
+          tera_by_mega_256 /= 1.48;
+          years_cnt++;
+          // printf("Price : %lf / Yrs Took : %d\n", tera_by_mega_256, years_cnt);
+      }
+      return years_cnt;
+  }
+
+  int problem_B(){
+      double exa_by_mega_16 = 1000000000000*16;
+      exa_by_mega_16 *= 8000;
+      int years_cnt = 0;
+      while (exa_by_mega_16 > 1000){
+          exa_by_mega_16 /= 1.48;
+          years_cnt++;
+          // printf("Price : %lf / Yrs Took : %d\n", exa_by_mega_16, years_cnt);
+      }
+      return years_cnt;
+  }
+
+  void problem_C(){
+      double tera_by_mega_256 = 1000000*256;
+      tera_by_mega_256 *= 8000;
+      int years_cnt = 0;
+      while (tera_by_mega_256 > 10000){
+          tera_by_mega_256 /= 1.48;
+          years_cnt++;        
+      }
+      printf("Price : %lf / Yrs Took : %d\n", tera_by_mega_256, years_cnt);
+      
+      double exa_by_mega_16 = 1000000000000*16;
+      exa_by_mega_16 *= 8000;
+      years_cnt = 0;
+      while (exa_by_mega_16 > 10000){
+          exa_by_mega_16 /= 1.48;
+          years_cnt++;
+      }
+      printf("Price : %lf / Yrs Took : %d\n", exa_by_mega_16, years_cnt);
+  }
+
+  int main() {
+      printf("A. %d\n", problem_A());
+      printf("B. %d\n", problem_B());
+      problem_C();
+
+  }
+  ```
+
+
+
+
+
+
 [Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
