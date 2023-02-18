@@ -38,7 +38,8 @@
 |[3.9 Heterogeneous Data Structures](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/09.md)|struct; union; alignment restriction;|
 |[3.10 Understanding Pointers](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/10.md)|pointer; function pointer(functor);|
 |[3.11 GDB Debugger](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/11.md)|GDB Debugger;|
-|[3.12 Out-of-Bounds Memory References and Buffer Overflow](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/12.md)||
+|[3.12 Out-of-Bounds Memory References and Buffer Overflow](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/12.md)|out-of-bounds error; buffer overflow; buffer overflow attack; exploit code; stack randomization; security monoculture; address-space layout randomization(ASLR); nop sled; stack corruption detection; stack protector; canary value(guard value); segmented addressing;|
+|[3.13 x86-64](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/notes/13.md)||
 
 
 
