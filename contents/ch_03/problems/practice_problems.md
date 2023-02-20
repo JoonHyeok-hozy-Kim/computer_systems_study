@@ -633,6 +633,22 @@ int main(){
   ```
 
 
+### ◈ Practice Problem 3.47
+![Practice Problem 3.47](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/47.png)
+
+
+### ◈ Practice Problem 3.48
+![Practice Problem 3.48](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_03/problems/practice/48.png)
+* Sol
+  ```c
+  long int arithprob(int a, char b, long int c, int d){
+    long int x = (long int) d * c;
+    long int y = (long int) ((int) b * a);
+    return x + y;
+  }
+  ```
+
+
 
 
 
