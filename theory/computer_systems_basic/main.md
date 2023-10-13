@@ -1,14 +1,9 @@
 # Basic Theory
-### based on the textbook, "Computer Systems, A Programmer's Perspective"
+#### based on the textbook, "Computer Systems, A Programmer's Perspective"
 
 ## Index
 
-<!-- <a href="./ch_01/note.md">▶ Ch 1. A Tour of Computer Systems</a> -->
 ### Ch 1. [A Tour of Computer Systems](./ch_01/note.md)
-
-<!-- <details>
-<summary>Ch 2. Representing and Manipulating Information</summary>
-<p> -->
 
 ### Ch 2. [Representing and Manipulating Information](./ch_02/note.md)
 |Sub Chapter |Keywords|
@@ -20,13 +15,8 @@
 * [Practice Problems](./ch_02/problems/practice_problems.md)
 * [Homework Problems](./ch_02/problems/hw_problems.md)  
 
-<!-- </p>   
-</details> -->
 
-<details>
-<summary>Ch 3. Machine-Level Representation of Programs</summary>
-<p>
-
+### Ch 3. [Machine-Level Representation of Programs](./ch_03/note.md)
 |Sub Chapter |Keywords|
 |:-----------|:-------|
 |[3.1 A Historical Perspective](./ch_03/notes/01.md)|8086; 80286; i386; i486; Pentium; Core 2; Core i7; IA32; x86-64;|
@@ -42,28 +32,14 @@
 |[3.11 GDB Debugger](./ch_03/notes/11.md)|GDB Debugger;|
 |[3.12 Out-of-Bounds Memory References and Buffer Overflow](./ch_03/notes/12.md)|out-of-bounds error; buffer overflow; buffer overflow attack; exploit code; stack randomization; security monoculture; address-space layout randomization(ASLR); nop sled; stack corruption detection; stack protector; canary value(guard value); segmented addressing;|
 |[3.13 x86-64](./ch_03/notes/13.md)||
-
-[](./ch_03/problems/practice_problems.md)
 * [Practice Problems](./ch_03/problems/practice_problems.md)
 * [Homework Problems](./ch_03/problems/hw_problems.md)   
 
-</p>   
-</details>
 
-
-
-
-
-<details>
-<summary>Ch N. new_chapter </summary>
-<p>
-
+### Ch N. [new_chapter](./ch_nn/note.md)
 |Sub Chapter |Keywords|
 |:-----------|:-------|
 |[N.1 sub_chapter](./ch_03/notes/01.md)||
 |||
 |||
 |||
-
-</p>   
-</details>
