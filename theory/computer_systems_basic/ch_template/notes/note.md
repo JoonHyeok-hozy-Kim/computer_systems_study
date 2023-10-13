@@ -1,4 +1,4 @@
-[Back to main](../../main.md)
+[Back to index](../../main.md)
 
 # Chapter 2.1 Information Storage
 
@@ -6,4 +6,4 @@
 
 
 
-[Back to main](../../main.md)
+[Back to index](../../main.md)

@@ -1,4 +1,4 @@
-[Back to main](../../main.md)
+[Back to index](../../main.md)
 
 
 # Homework Problems
@@ -220,4 +220,4 @@ D. (1 << 4) - (1 << 7)
 * [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/96.c)
 
 
-[Back to main](../../main.md)
+[Back to index](../../main.md)

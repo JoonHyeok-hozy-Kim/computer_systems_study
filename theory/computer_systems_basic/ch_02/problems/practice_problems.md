@@ -1,4 +1,4 @@
-[Back to main](../../main.md)
+[Back to index](../../main.md)
 
 
 ### ◈ Practice Problem 2.1
@@ -565,4 +565,4 @@ int main() {
 
 
 
-[Back to main](../../main.md)
+[Back to index](../../main.md)
