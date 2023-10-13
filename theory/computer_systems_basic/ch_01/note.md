@@ -59,7 +59,7 @@
 * A command-line interpreter that prints a prompt, waits for the input in the command-line, and then performs the command.
   
 ### 1.4.1 Hardware Organization of a System
-<img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_04_01_hardware_organization_of_system.png">
+<img src="./images/01_04_01_hardware_organization_of_system.png">
 
 #### Concept) Buses
 * A collection of electrical conduits
@@ -135,7 +135,7 @@ the previous contents of the register.
   * Storage at one level serves as a cache for the next level
 
 <p align="center">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_06_01_memory_hierarchy.png" width="60%">
+  <img src="./images/01_06_01_memory_hierarchy.png" width="60%">
 </p>
 
 ---
@@ -152,7 +152,7 @@ the previous contents of the register.
   3. Processor - Processes
 
 <p align="left">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_07_01_hw_abstraction_by_os.png" width="40%">
+  <img src="./images/01_07_01_hw_abstraction_by_os.png" width="40%">
 </p>
 
 ### 1.7.1 Processes
@@ -169,7 +169,7 @@ the previous contents of the register.
 * Def.) An abstraction that provides each process with the illusion that it has exclusive use of the main memory
 
 <p align="center">
-  <img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_07_02_virtual_memory.png" width="50%">
+  <img src="./images/01_07_02_virtual_memory.png" width="50%">
 </p>
 
 ### 1.7.4 Files
