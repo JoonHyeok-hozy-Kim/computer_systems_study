@@ -4,6 +4,7 @@
 ## Index
 
 <a href="./ch_01/note.md">▶ Ch 1. A Tour of Computer Systems</a>
+### Ch 1. [A Tour of Computer Systems](./ch_01/note.md)
 
 <details>
 <summary>Ch 2. Representing and Manipulating Information</summary>
@@ -41,10 +42,7 @@
 |[3.12 Out-of-Bounds Memory References and Buffer Overflow](./ch_03/notes/12.md)|out-of-bounds error; buffer overflow; buffer overflow attack; exploit code; stack randomization; security monoculture; address-space layout randomization(ASLR); nop sled; stack corruption detection; stack protector; canary value(guard value); segmented addressing;|
 |[3.13 x86-64](./ch_03/notes/13.md)||
 
-
-
-
-
+[](./ch_03/problems/practice_problems.md)
 * [Practice Problems](./ch_03/problems/practice_problems.md)
 * [Homework Problems](./ch_03/problems/hw_problems.md)   
 
