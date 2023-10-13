@@ -3,13 +3,14 @@
 
 ## Index
 
-<a href="./ch_01/note.md">▶ Ch 1. A Tour of Computer Systems</a>
+<!-- <a href="./ch_01/note.md">▶ Ch 1. A Tour of Computer Systems</a> -->
 ### Ch 1. [A Tour of Computer Systems](./ch_01/note.md)
 
-<details>
+<!-- <details>
 <summary>Ch 2. Representing and Manipulating Information</summary>
-<p>
+<p> -->
 
+### Ch 2. [Representing and Manipulating Information](./ch_02/note.md)
 |Sub Chapter |Keywords|
 |:-----------|:-------|
 |[2.1 Information Storage](./ch_02/notes/01.md)| words; data size; addressing; byte ordering; little endian; big endian; bi endian; boolean; bit-level operations; in-place swap; bit-masking; logical operations; shift operations; logical right shift; arithmetic right shift;|
@@ -19,8 +20,8 @@
 * [Practice Problems](./ch_02/problems/practice_problems.md)
 * [Homework Problems](./ch_02/problems/hw_problems.md)  
 
-</p>   
-</details>
+<!-- </p>   
+</details> -->
 
 <details>
 <summary>Ch 3. Machine-Level Representation of Programs</summary>
