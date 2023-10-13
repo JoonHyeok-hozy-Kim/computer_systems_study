@@ -1,4 +1,4 @@
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to index](../main.md)
 
 # Chapter 1. A Tour of Computer Systems  
 
@@ -41,7 +41,7 @@
       * The linker(ld) merges precompiled object files into our "\~.o" files.
         * ex.) prinf() function resides in a separate precompiled object file called "printf.o".
 
-<img src="https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_01/images/01_01_01_compilation_system.png">
+<img src="./images/01_01_01_compilation_system.png">
 
 ---
 
@@ -199,4 +199,4 @@ the previous contents of the register.
 
 
 
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to index](../main.md)
