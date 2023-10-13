@@ -1,4 +1,4 @@
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to main](../../main.md)
 
 
 ### ◈ Practice Problem 3.1
@@ -653,4 +653,4 @@ int main(){
 
 
 
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to main](../../main.md)

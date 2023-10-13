@@ -1,4 +1,4 @@
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to main](../../main.md)
 
 # Chapter 2.1 Information Storage
 
@@ -6,4 +6,4 @@
 
 
 
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to main](../../main.md)

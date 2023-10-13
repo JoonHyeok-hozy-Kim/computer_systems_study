@@ -1,4 +1,4 @@
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to main](../../main.md)
 
 
 # Homework Problems
@@ -220,4 +220,4 @@ D. (1 << 4) - (1 << 7)
 * [Sol](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study/blob/main/contents/ch_02/problems/hw_problems/96.c)
 
 
-[Back to main](https://github.com/JoonHyeok-hozy-Kim/computer_systems_study#readme)
+[Back to main](../../main.md)
