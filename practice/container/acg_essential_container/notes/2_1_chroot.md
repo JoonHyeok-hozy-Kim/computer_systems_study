@@ -1,6 +1,9 @@
 [Back to the index](../main.md)
 
-![](../images/2-1_1.png)
-![](../images/2-1_2.png)
+<br>
+<li><span>Change the root directory of a process</span><span></span></li>
+<li><span> Root Directory </span><span></span></li>
+<img src="./../images/020101.png">
+<br>
 
 [Back to the index](../main.md)
