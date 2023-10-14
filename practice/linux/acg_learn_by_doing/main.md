@@ -64,7 +64,7 @@
 |8.1|[Adding a New Hard Disk to a Linux System]||
 |8.2|[CUPS Print Server]||
 |8.3|[Storage Management]||
-|8.4|[LVM Storage](./8_4/note.md)||
+|8.4|[LVM Storage](./8_4/note.md)|physical volume, volume group, logical volume|
 
 <br>
 
