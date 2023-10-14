@@ -10,13 +10,13 @@
 |[Dockerfile](./04/note.md)||
 |[Running Containers](./05/note.md)|list, run|
 |[Container Lifecycle](./06/note.md)|container run, start, attach, stop|
-|[Image & Container Management](./07/note.md)||
+|[Image & Container Management](./07/note.md)|push, pull|
 |[Docker Container Port](./08/note.md)||
 |[Docker Container Volume](./09/note.md)||
 
 <br><br>
 
-### Docker architecture illustrated by hozy
+#### Docker architecture illustrated by hozy
 ![](docker_archi_map_hozy.png)
 
 [Back to Computer Systems main](../../../README.md)
