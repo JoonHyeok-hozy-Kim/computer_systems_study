@@ -30,8 +30,9 @@ Containers are the light versions of OS virtualized version.
   * Middle ground of fully-chrooted environment and a full virtual machine environment
   * Sharing the same Linux kernel
 
-
 ![](../images/030102.png)
+
+* [Installation Hands on with LXD](./3_3_lxc_lxd_hands_on.md)
 
 <br><br>
 
