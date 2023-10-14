@@ -18,5 +18,16 @@ Learn how to use the LVM management tool.
     ```
     fdisk -l
     ```
-    ![](images/080401.png)
+    ![](./images/080401.png)
     * We have xvdg and xvdf
+
+* Create a physical device (volume)
+  ```
+  pvcreate /dev/xvdg /dev/xvdf
+  ```
+  ![](./images/080402.png)
+  * Verify the devices that we created.
+    ```
+    pvs
+    ```
+    ![](./images/080403.png)
