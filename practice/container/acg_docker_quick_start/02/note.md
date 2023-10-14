@@ -4,7 +4,7 @@
 
 ### What is Docker Hub?
 * Images are held in Docker Hub
-* Refer to [Image & Container Management](../06/note.md) for image pushing and pulling to Docker Hub
+* Refer to [Image & Container Management](../07/note.md) for image pushing and pulling to Docker Hub
 * Website : https://hub.docker.com/
 
 <br>
