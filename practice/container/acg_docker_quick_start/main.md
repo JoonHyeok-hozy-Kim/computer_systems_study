@@ -6,7 +6,7 @@
 
 |Chapter|Keywords|
 |:------|:-------|
-|[Installation & Configuration]||
+|[Installation & Configuration](./01/note.md)||
 |[Docker Hub]||
 |[Docker Image]||
 |[Dockerfile]||
