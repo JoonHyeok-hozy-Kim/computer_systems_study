@@ -40,23 +40,23 @@ Limits the ability of the process to see the system resource
     * Own routing tables
     * Own firewall rules
     * Own network devices
-  * Hands on
-    * Add a network namespace and check   
-      ![](../images/020201.png)
-    * Add commands to the network namespace   
-      * Check ip table rules
-        ![](../images/020202.png)
-      * Execute sample 1 in the namespace. No command in it yet.
-        ![](../images/020203.png)
-      * Go into sample1 NS using bash shell
-        ![](../images/020204.png)
-      * Add a rule that allows http access and check the result
-        ![](../images/020205.png)
-      * Go back out of the name space
-        ![](../images/020206.png)
-    * Cannot find the rule that we set inside the NS
-      * Container did not affect our host.
-        ![](../images/020207.png)
+#### Network Namespace Hands on
+* Add a network namespace and check   
+  ![](../images/020201.png)
+* Add commands to the network namespace   
+  * Check ip table rules
+    ![](../images/020202.png)
+  * Execute sample 1 in the namespace. No command in it yet.
+    ![](../images/020203.png)
+  * Go into sample1 NS using bash shell
+    ![](../images/020204.png)
+  * Add a rule that allows http access and check the result
+    ![](../images/020205.png)
+  * Go back out of the name space
+    ![](../images/020206.png)
+* Cannot find the rule that we set inside the NS
+  * Container did not affect our host.
+    ![](../images/020207.png)
 
 
 
