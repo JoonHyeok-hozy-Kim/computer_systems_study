@@ -14,7 +14,7 @@ Consider the following scenario.
 
 <br>
 
-### Hands-on : Image related
+### Hands-on : Pull a docker image
 View images
 ```
 docker image ls
