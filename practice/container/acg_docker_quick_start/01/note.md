@@ -76,8 +76,7 @@ sudo docker run hello-world
 * Exit from and re log-into the target user. And try docker run.   
 ![](images/009.png)   
 
-s
-<br>
 
+<br>
 
 [Back to ACG Docker Quick Start](../main.md)

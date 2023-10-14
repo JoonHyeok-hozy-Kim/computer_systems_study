@@ -1,7 +1,5 @@
 [Back to Computer Systems main](../../../README.md)
 
-<br>
-
 # ACG Docker Quick Start
 
 |Chapter|Keywords|
