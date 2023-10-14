@@ -9,7 +9,7 @@
 |[Docker Image](./03/note.md)|pull|
 |[Dockerfile](./04/note.md)||
 |[Running Containers](./05/note.md)|list, run|
-|[Container Lifecycle](./06/note.md)||
+|[Container Lifecycle](./06/note.md)|container run, start, attach, stop|
 |[Image & Container Management](./07/note.md)||
 |[Docker Container Port](./08/note.md)||
 |[Docker Container Volume](./09/note.md)||
