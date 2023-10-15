@@ -71,7 +71,7 @@
 ### 9. The Linux Shell
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|9.1|[Bash Shell](./9_1/note.md)||
+|9.1|[Bash Shell](./9_1/note.md)|bashrc, alias, function|
 
 <br>
 
