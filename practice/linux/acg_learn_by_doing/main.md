@@ -78,9 +78,9 @@
 ### 10. Networking
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|10.|[]()||
-|10.|[]()||
-|10.|[]()||
+|10.1|[DNS Resolution](./10_1/note.md)|DNS server, nmcli, /etc/resolv.conf|
+|10.2|[]()||
+|10.3|[]()||
 
 <br>
 
