@@ -71,7 +71,16 @@
 ### 9. The Linux Shell
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|9.|[]()||
+|9.1|[Bash Shell](./9_1/note.md)||
+
+<br>
+
+### 10. Networking
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|10.|[]()||
+|10.|[]()||
+|10.|[]()||
 
 <br>
 

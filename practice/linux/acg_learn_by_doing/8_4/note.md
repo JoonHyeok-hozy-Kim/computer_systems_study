@@ -1,3 +1,5 @@
+[Back to Linux Main](../main.md)
+
 # LVM Storage
 
 ### Objective
@@ -86,3 +88,6 @@ Learn how to use the LVM management tool.
         ```
         ![](images/080411.png)   
         ![](images/080412.png)   
+
+
+[Back to Linux Main](../main.md)
