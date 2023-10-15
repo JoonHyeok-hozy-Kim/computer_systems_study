@@ -62,7 +62,7 @@ Source the .bashrc file
 . .bashrc
 ```
 
-Test
+Test!   
 ![](images/004.png)
 
 
