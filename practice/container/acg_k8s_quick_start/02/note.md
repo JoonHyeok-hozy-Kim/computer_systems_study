@@ -96,7 +96,7 @@
   sed -i '/"cri"/s/^/#/' /etc/containerd/config.toml
   systemctl restart containerd
   ```
-  * Check
+  * Check the file.   
     ![](images/005.png)
 
 * Initialize the cluster using the IP range for Flannel.
@@ -110,8 +110,9 @@
     kubeadmin reset
     ```
 
-* Run the commands in (1).
+* **Exit from root user** and run the commands in (1).
   ```
+  exit
   mkdir -p $HOME/.kube
   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
@@ -120,8 +121,7 @@
     ```
     kubectl get nodes
     ```
-    * Currently, error pops up...
-      ![](images/008.png)
+    ![](images/008.png)
 
 
 <br>
