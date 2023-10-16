@@ -56,9 +56,7 @@ Learn how to configure a system's DNS settings.
 * Once again, veriry if the system is capable of communicating with the network.
   ```
   host <url>
-  ```
-
-  
+  ```  
 
 
 <br>
