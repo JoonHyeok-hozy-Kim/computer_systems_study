@@ -30,7 +30,11 @@
 * Disable Swap
   ```
   swapoff -a
+  ```
+  ```
   echo 0 > /proc/sys/vm/swappiness
+  ```
+  ```
   sed -e '/swap/ s/^#*/#/' -i /etc/fstab
   ```
   ![](images/002.png)
@@ -38,9 +42,17 @@
 * Install Docker
   ```
   apt-get update && apt-get upgrade -y
+  ```
+  ```
   apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+  ```
+  ```
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
+  ```
+  ```
   add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+  ```
+  ```
   apt-get install docker-ce
   ```
   * Check the docker status
@@ -52,8 +64,14 @@
 * Configure the Docker Cgroup Driver to systemd, enable, and start Docker
   ```
   sed -i '/^ExecStart/ s/$/ --exec-opt native.cgroupdriver=systemd/' /usr/lib/systemd/system/docker.service
+  ```
+  ```
   systemctl daemon-reload
+  ```
+  ```
   systemctl enable docker --now 
+  ```
+  ```
   systemctl status docker
   ```
   * Why Doing this?) 
@@ -76,7 +94,11 @@
   ```
   ```
   apt-get update
+  ```
+  ```
   apt-get install -y haproxy keepalived kubelet kubeadm kubectl
+  ```
+  ```
   apt-mark hold kubelet kubeadm kubectl
   ```
   * haproxy and keepalived are needed to proceed with the next stpes.
@@ -94,6 +116,8 @@
 * Disable CRI in /etc/containerd/config.toml and restart containerd.
   ```
   sed -i '/"cri"/s/^/#/' /etc/containerd/config.toml
+  ```
+  ```
   systemctl restart containerd
   ```
   * Check the file.   
@@ -113,8 +137,14 @@
 * **Exit from root user** and run the commands in (1).
   ```
   exit
+  ```
+  ```
   mkdir -p $HOME/.kube
+  ```
+  ```
   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  ```
+  ```
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
   ```
   * Check nodes using kubectl
