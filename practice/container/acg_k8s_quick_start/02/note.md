@@ -44,7 +44,7 @@
   apt-get update && apt-get upgrade -y
   ```
   ```
-  apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+  apt-get install -y apt-transport-https ca-certificates curl gnupg-agent software-properties-common
   ```
   ```
   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | apt-key add -
@@ -111,10 +111,6 @@
   ```
   * The kubelet service will not start untill you run "kubeadm init"
 
-<br>
-    
-
-## 1.3 Installation For Master Node ONLY
 * Disable CRI in /etc/containerd/config.toml and restart containerd.
   ```
   sed -i '/"cri"/s/^/#/' /etc/containerd/config.toml
@@ -128,6 +124,10 @@
     ```
     ![](images/005.png)
 
+<br>
+    
+
+## 1.3 Installation For Master Node ONLY
 * Exit from the root user and initialize the cluster using the IP range for Flannel.
   ```
   exit
@@ -174,7 +174,14 @@
 <br>
 
 ## 1.4 Installation For Worker Node ONLY
+* Paste the "kubeadm join" command that we copied from the master node
+  * Be sure to sudo or run in root user
+    ![](images/011.png)
 
+* Go back to the **master node** and check if the worker joined.
+  ```
+  kubectl get nodes
+  ```
 <br>
 
 
