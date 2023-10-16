@@ -7,7 +7,9 @@
 #### Security Group Setting
 * Inbound Rule : All traffic - Any IPv4
 * Outbound Rule : All traffic - Any IPv4
-  
+
+<br>
+
 #### EC2 Configuration
 * Ubuntu image
 * t2.medium
@@ -16,7 +18,9 @@
   * Master Node
   * Worker Node
 
-## 1.2 For Both Master and Worker Node
+<br>
+
+## 1.2 Installation For Both Master and Worker Node
 * Start with the root user.
   ```
   sudo su
@@ -44,11 +48,55 @@
     systemctl status docker
     ```
     ![](images/003.png)
+
+* Configure the Docker Cgroup Driver to systemd, enable, and start Docker
+  ```
+  sed -i '/^ExecStart/ s/$/ --exec-opt native.cgroupdriver=systemd/' /usr/lib/systemd/system/docker.service
+  systemctl daemon-reload
+  systemctl enable docker --now 
+  systemctl status docker
+  ```
+  * Why Doing this?) 
+    * To make sure that Docker and K8s are running in the Cgroup
+  * Check the result
+    ```
+    docker info | grep -i cgroup
+    ```
+    ![](images/004.png)
+
+* Install kubeadm, kubelet, and kubectl
+  ```
+  apt-get update && apt-get install -y apt-transport-https curl
+  curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -  
+  ```
+  ```
+  cat <<EOF | tee /etc/apt/sources.list.d/kubernetes.list
+  deb https://apt.kubernetes.io/ kubernetes-xenial main
+  EOF
+  ```
+  ```
+  apt-get update
+  apt-get install -y haproxy keepalived kubelet kubeadm kubectl
+  apt-mark hold kubelet kubeadm kubectl
+  ```
+  * haproxy and keepalived needed to proceed with the next stpes.
+
+* Enable K8s.
+  ```
+  systemctl enable kubelet
+  ```
+  * The kubelet service will not start untill you run "kubeadm init"
+
+<br>
     
 
-## 1.3 For Master Node ONLY
+## 1.3 Installation For Master Node ONLY
 
-## 1.4 For Worker Node ONLY
+<br>
+
+## 1.4 Installation For Worker Node ONLY
+
+<br>
 
 
 <br>
