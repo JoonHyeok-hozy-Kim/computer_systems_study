@@ -53,7 +53,7 @@
   add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
   ```
   ```
-  apt-get install docker-ce
+  apt-get install -y docker-ce
   ```
   * Check the docker status
     ```
@@ -123,9 +123,15 @@
   systemctl restart containerd
   ```
   * Check the file.   
+    ```
+    cat /etc/containerd/config.toml
+    ```
     ![](images/005.png)
 
-* Initialize the cluster using the IP range for Flannel.
+* Exit from the root user and initialize the cluster using the IP range for Flannel.
+  ```
+  exit
+  ```
   ```
   kubeadm init --pod-network-cidr=10.244.0.0/16
   ```
@@ -133,13 +139,10 @@
     ![](images/007.png)
   * If something goes wrong, reset with the following command.
     ```
-    kubeadmin reset
+    kubeadm reset
     ```
 
-* **Exit from root user** and run the commands in (1).
-  ```
-  exit
-  ```
+* Run the commands in (1).
   ```
   mkdir -p $HOME/.kube
   ```
@@ -149,13 +152,24 @@
   ```
   sudo chown $(id -u):$(id -g) $HOME/.kube/config
   ```
-  * Check nodes using kubectl
+  * Check nodes.
     ```
     kubectl get nodes
     ```
     ![](images/008.png)
+    * Why not ready?)
+      * We have not applied the network overlay.
 
-* Deploy a pod network to the cluster : Flannel
+* Apply the network overlay using Flannel
+  ```
+  kubectl apply -f https://github.com/flannel-io/flannel/releases/latest/download/kube-flannel.yml
+  ```
+  ![](images/009.png)
+  * Check nodes once again.
+    ```
+    kubectl get nodes
+    ```
+    ![](images/010.png)
 
 <br>
 
