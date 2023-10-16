@@ -123,6 +123,7 @@
     ```
     ![](images/008.png)
 
+* Deploy a pod network to the cluster : Flannel
 
 <br>
 
