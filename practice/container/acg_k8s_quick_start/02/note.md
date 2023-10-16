@@ -79,7 +79,7 @@
   apt-get install -y haproxy keepalived kubelet kubeadm kubectl
   apt-mark hold kubelet kubeadm kubectl
   ```
-  * haproxy and keepalived needed to proceed with the next stpes.
+  * haproxy and keepalived are needed to proceed with the next stpes.
 
 * Enable K8s.
   ```
@@ -91,6 +91,38 @@
     
 
 ## 1.3 Installation For Master Node ONLY
+* Disable CRI in /etc/containerd/config.toml and restart containerd.
+  ```
+  sed -i '/"cri"/s/^/#/' /etc/containerd/config.toml
+  systemctl restart containerd
+  ```
+  * Check
+    ![](images/005.png)
+
+* Initialize the cluster using the IP range for Flannel.
+  ```
+  kubeadm init --pod-network-cidr=10.244.0.0/16
+  ```
+  * Check the commands to run afterwards and copy the kubeadm join part.
+    ![](images/007.png)
+  * If something goes wrong, reset with the following command.
+    ```
+    kubeadmin reset
+    ```
+
+* Run the commands in (1).
+  ```
+  mkdir -p $HOME/.kube
+  sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+  sudo chown $(id -u):$(id -g) $HOME/.kube/config
+  ```
+  * Check nodes using kubectl
+    ```
+    kubectl get nodes
+    ```
+    * Currently, error pops up...
+      ![](images/008.png)
+
 
 <br>
 
