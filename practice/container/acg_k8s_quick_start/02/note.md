@@ -128,10 +128,7 @@
     
 
 ## 1.3 Installation For Master Node ONLY
-* Exit from the root user and initialize the cluster using the IP range for Flannel.
-  ```
-  exit
-  ```
+* Initialize the cluster using the IP range for Flannel.
   ```
   kubeadm init --pod-network-cidr=10.244.0.0/16
   ```
