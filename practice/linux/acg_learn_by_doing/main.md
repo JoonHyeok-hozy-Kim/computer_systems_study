@@ -80,7 +80,7 @@
 |:-:|:------|:-------|
 |10.1|[DNS Resolution](./10_1/note.md)|DNS server, nmcli, /etc/resolv.conf|
 |10.2|[Monitoring Network Access](./10_2/note.md)|netcat(nc), iptraf-ng|
-|10.3|[]()||
+|10.3|[Network Filesystems](./10_3/note.md)|samba, nfs, rpcbind|
 
 <br>
 
