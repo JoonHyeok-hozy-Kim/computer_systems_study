@@ -5,7 +5,7 @@
 ### 2. Users and Permissions
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|2.1|[Managing Users in Linux]||
+|2.1|[Managing Users in Linux](2_1/note.md)|adduser, bash, color prompt|
 |2.2|[Create New sudo Users]||
 |2.3|[SSH, Redirection, and Permissions in Linux]||
 
