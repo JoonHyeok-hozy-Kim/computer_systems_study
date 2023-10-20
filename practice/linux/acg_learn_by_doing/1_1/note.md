@@ -21,6 +21,11 @@
   docker pull danielisdan/ubuntu_hozy_initial:v231020
   ```
   * Check [Dockerfile](../../../container/hozy_library/ubuntu_dockerfiles/v231020/Dockerfile)
+  
+* Run the image
+  ```
+  docker run -it <image_id>
+  ```
 
 
 <br>
