@@ -62,12 +62,30 @@ usermod -s /bin/bash <user_name>
     ```
     vim ~/.bashrc
     ```
-  * Modify the following part using the text below.
+  * Run the following commands.
     ```
-    PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
+    sed -i "s/\(\s*PS1.*'\)\(.*\)\('.*\)/\1hozy_script_part \3/g" /home/hozy/.bashrc
     ```
-    ![](images/002.png)   
-    ![](images/003.png)   
+    ```
+    sed -i 's/hozy_script_part/\\[\\033[1;36m\\]\\u\\[\\033[1;31m\\]@\\[\\033[1;32m\\]\\h:\\[\\033[1;35m\\]\\w\\[\\033[1;31m\\]$\\[\\033[0m\\]/' /home/hozy/.bashrc
+    ```
+    * Some findings about the *sed* command.
+       1. If you need to put apostrophe(') inside the argument, use the double quote(") to wrap the whole argument.
+          * ex) 
+            ```
+            sed -i "s/\(\s*PS1.*'\)\(.*\)\('.*\)/\1hozy_script_part \3/g" /home/hozy/.bashrc
+            ```
+       2. If you need to put backslash(\) inside the argument, use the single quote(') to wrap the whole argument and use double backslash for the backslash.
+          * ex) 
+            ```
+            sed -i 's/hozy_script_part/\\[\\033[1;36m\\]\\u\\[\\033[1;31m\\]@\\[\\033[1;32m\\]\\h:\\[\\033[1;35m\\]\\w\\[\\033[1;31m\\]$\\[\\033[0m\\]/' /home/hozy/.bashrc
+            ```
+    * Or manually modify the following part using the text below.
+      ```
+      PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
+      ```
+      ![](images/002.png)   
+      ![](images/003.png)   
   * Exit and reconnect.
     
 
