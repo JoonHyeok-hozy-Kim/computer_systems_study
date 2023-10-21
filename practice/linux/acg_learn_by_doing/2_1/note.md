@@ -124,6 +124,22 @@ usermod -s /bin/bash <user_name>
     ```
     id <user_name>
     ```
+  ```
+
+<br><br>
+
+
+#### 5. How to make a sudo user
+* First, check whether the *sudo* package is installed.
+  ```
+  apt-get install sudo
+  ```
+
+* If installed, add the target user to the sudo group
+  ```
+  usermod -aG sudo <user_name>
+  ```
+
 
 
 <br>

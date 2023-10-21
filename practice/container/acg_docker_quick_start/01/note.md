@@ -14,7 +14,7 @@ Installing in Ubuntu
 
 #### Update apt and upgrade packages.
 ```
-sudo apt-get update && apt-get upgrade -y
+sudo apt-get update && sudo apt-get upgrade -y
 ```
 ![](images/001.png)
 
@@ -55,6 +55,8 @@ sudo apt-get install docker-ce
 #### Enable and start docker
 ```
 sudo systemctl enable docker
+```
+```
 sudo systemctl start docker
 ```
 ![](images/006.png)
