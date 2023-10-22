@@ -10,7 +10,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |2.1|[Managing Users in Linux](2_1/note.md)|adduser, bash, color prompt, group, sudo|
-|2.2|[SSH, Redirection, and Permissions in Linux]|ssh, ssh-keygen, umask|
+|2.2|[SSH, Redirection, and Permissions in Linux](2_2/note.md)|ssh-keygen, scp, umask|
 
 <br>
 
