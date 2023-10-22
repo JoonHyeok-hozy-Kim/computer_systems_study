@@ -17,8 +17,8 @@
 ### 3. System Service Management, Runlevels and Boot Targets
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|3.1|[Default Boot Target Configuration]||
-|3.2|[Scheduling a Systemd Service Job with Timer Units]||
+|3.1|[Default Boot Target Configuration](3_1/note.md)|systemctl get-default, systemctl set-default|
+|3.2|[Scheduling a Systemd Service Job with Timer Units](3_2/note.md)|systemd timer, service|
 |3.3|[System Service Log Files Using the Journal Control]||
 
 <br>
