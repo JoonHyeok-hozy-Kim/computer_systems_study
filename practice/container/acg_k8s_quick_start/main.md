@@ -10,6 +10,8 @@
 |[Pods and Containers](./04/note.md)||
 |[Networking](./05/note.md)|network overlay, network plugin, DNS, Ectd|
 |[DNS](./06/note.md)|DNS, PodSpec DNS Policy|
+|[Replica Sets](./07/note.md)|Description and Definition|
+
 
 <br><br>
 
