@@ -1,7 +1,7 @@
 from ubuntu:22.04
 LABEL maintainer="danielisdan@naver.com"
 RUN apt-get update
-RUN apt-get install -y python3 vim sudo
+RUN apt-get install -y python3 vim sudo systemd
 
 # Add user named hozy
 RUN adduser --gecos hozy --disabled-password hozy

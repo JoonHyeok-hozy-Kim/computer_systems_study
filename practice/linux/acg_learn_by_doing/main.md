@@ -19,7 +19,7 @@
 |:-:|:------|:-------|
 |3.1|[Default Boot Target Configuration](3_1/note.md)|systemctl get-default, systemctl set-default|
 |3.2|[Scheduling a Systemd Service Job with Timer Units](3_2/note.md)|systemd timer, service|
-|3.3|[System Service Log Files Using the Journal Control]||
+|3.3|[System Service Log Files Using the Journal Control](3_3/note.md)|httpd, journalctl|
 
 <br>
 
