@@ -12,7 +12,7 @@
 |[DNS](./06/note.md)|DNS, PodSpec DNS Policy|
 |[Replica Sets](./07/note.md)|Description and Definition|
 |[Service](./08/note.md)|proxy|
-
+|[Deployments](./09/note.md)||
 
 <br><br>
 
