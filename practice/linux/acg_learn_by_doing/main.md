@@ -27,7 +27,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |4.1|[SSH Keys for Secure Access](4_1/note.md)|ssh-keygen, .ssh/authorized_keys|
-|4.2|[SSH Tunnel for Network Traffic]||
+|4.2|[SSH Tunnel for Network Traffic](4_2/note.md)|ssh tunnel, curl|
 |4.3|[TCP Wrappers and Systemd Sockets]||
 
 <br>
