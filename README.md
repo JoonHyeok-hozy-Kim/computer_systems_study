@@ -3,7 +3,7 @@
 ## Theories
 * [Computer Systems Basic](./theory/computer_systems_basic/main.md)
 
-## In-Practice
+## Practica
 * Linux
   * [ACG Learn Linux by Doing](./practice/linux/acg_learn_by_doing/main.md)
 * Containers
