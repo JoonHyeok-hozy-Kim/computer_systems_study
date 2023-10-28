@@ -13,27 +13,27 @@
 <pre><code>sudo su  
 </code></pre>
 <p>2 - Disable SELinux:</p>
-<pre><code>setenforce 0
-sed -i --follow-symlinks 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
+<pre><code>setenforce 0</code></pre>
+<pre><code>sed -i --follow-symlinks 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
 </code></pre>
 <p>3 - Enable the <code>br_netfilter</code> module for cluster communication:</p>
-<pre><code>modprobe br_netfilter
-echo '1' &gt; /proc/sys/net/bridge/bridge-nf-call-iptables
+<pre><code>modprobe br_netfilter</code></pre>
+<pre><code>echo '1' > /proc/sys/net/bridge/bridge-nf-call-iptables
 </code></pre>
 <p>4 - Ensure that the Docker dependencies are satisfied:</p>
 <pre><code>yum install -y yum-utils device-mapper-persistent-data lvm2
 </code></pre>
 <p>5 - Add the Docker repo and install Docker:</p>
-<pre><code>yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
-yum install -y docker-ce
+<pre><code>yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo</code></pre>
+<pre><code>yum install -y docker-ce
 </code></pre>
 <p>6 - Set the cgroup driver for Docker to systemd, reload systemd, then enable and start Docker:</p>
-<pre><code>sed -i '/^ExecStart/ s/$/ --exec-opt native.cgroupdriver=systemd/' /usr/lib/systemd/system/docker.service
-systemctl daemon-reload
-systemctl enable docker --now
+<pre><code>sed -i '/^ExecStart/ s/$/ --exec-opt native.cgroupdriver=systemd/' /usr/lib/systemd/system/docker.service</code></pre>
+<pre><code>systemctl daemon-reload</code></pre>
+<pre><code>systemctl enable docker --now
 </code></pre>
 <p>7 - Add the Kubernetes repo:</p>
-<pre><code>cat &lt;&lt; EOF &gt; /etc/yum.repos.d/kubernetes.repo
+<pre><code>cat << EOF > /etc/yum.repos.d/kubernetes.repo
 [kubernetes]
 name=Kubernetes
 baseurl=https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64
@@ -59,9 +59,9 @@ EOF
 </code></pre>
 <p>11 - Copy the <code>kubeadmn join</code> command that is in the output. We will need this later.</p>
 <p>12 - Exit <code>sudo</code>, copy the <code>admin.conf</code> to your home directory, and take ownership.</p>
-<pre><code>mkdir -p $HOME/.kube
-sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-sudo chown $(id -u):$(id -g) $HOME/.kube/config
+<pre><code>mkdir -p $HOME/.kube</code></pre>
+<pre><code>sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config</code></pre>
+<pre><code>sudo chown $(id -u):$(id -g) $HOME/.kube/config
 </code></pre>
 <p>13 - Deploy Flannel:</p>
 <pre><code>kubectl apply -f https://raw.githubusercontent.com/flannel-io/flannel/master/Documentation/kube-flannel-old.yaml
