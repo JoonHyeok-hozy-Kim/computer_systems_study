@@ -35,7 +35,7 @@
 ### 5. Package Management and Troubleshooting
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|5.1|[[Debian/Ubuntu] Package Installation and Management]||
+|5.1|[[Debian/Ubuntu] Package Installation and Management](5_1/note.md)|apt, apache, wget, curl|
 |5.2|[[Red Hat/CentOS] Package Installation and Management]||
 |5.3|[RPM Troubleshooting]||
 
