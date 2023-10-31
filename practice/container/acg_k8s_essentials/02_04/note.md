@@ -1,6 +1,6 @@
 [Back to ACG K8s Essentials](../main.md)
 
-#  Installing Kubeadm, Kubelet, and Kubectl
+# Installing Kubeadm, Kubelet, and Kubectl
 
 ## Here are the commands used to install the Kubernetes components in this lesson. Run these on all three servers.
 
