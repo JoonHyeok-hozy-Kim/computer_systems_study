@@ -15,6 +15,7 @@
 |2.3|[Installing containerd](./02_03/note.md)|Docker|
 |2.4|[Installing Kubeadm, Kubelet, and Kubectl](./02_04/note.md)|kubeadm, kubelet, kubectl|
 |2.5|[Bootstrapping the Cluster](./02_05/note.md)||
+|2.6|[Configuring Networking with Calico](./02_06/note.md)||
 
 <br><br>
 
