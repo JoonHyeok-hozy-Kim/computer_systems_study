@@ -20,14 +20,11 @@ sudo chown $(id -u):$(id -g) $HOME/.kube/config
 ```
 
 #### The kubeadm init command should output a kubeadm join command containing a token and hash. Copy that command and run it with sudo on both worker nodes. It should look something like this:
-```
-sudo kubeadm join $some_ip:6443 --token $some_token --discovery-token-ca-cert-hash $some_hash
-```
-
-#### Use can print the full 'kubeadm join' flag needed to join the cluster with the following command:
-```
-kubeadm token create --print-join-command
-```
+![](images/001.png)
+* Use can print the full 'kubeadm join' flag needed to join the cluster with the following command:
+    ```
+    kubeadm token create --print-join-command
+    ```
 ---
 
 
