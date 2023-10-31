@@ -27,7 +27,7 @@ spread across multiple servers for high availability?
 cluster?
   - How can I create new containers to handle additional load (scale up)?
 - Solution
-  - Use an orchestration tool to automate these kinds of management tasks
+  - Use an **orchestration tool** to automate these kinds of management tasks
 
 
 <br>
