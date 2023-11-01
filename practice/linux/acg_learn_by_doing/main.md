@@ -36,8 +36,8 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |5.1|[[Debian/Ubuntu] Package Installation and Management](5_1/note.md)|apt, apache, wget, curl|
-|5.2|[[Red Hat/CentOS] Package Installation and Management](5_1/note.md)|elinks, rpm, yum provides, yum install|
-|5.3|[RPM Troubleshooting]||
+|5.2|[[Red Hat/CentOS] Package Installation and Management](5_2/note.md)|elinks, rpm, yum provides, yum install|
+|5.3|[RPM Troubleshooting](5_2/note.md)|rpmdb_verify, rpmdb_dump, rpmdb_load, telnet, apache(httpd)|
 
 <br>
 
