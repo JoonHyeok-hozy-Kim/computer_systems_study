@@ -8,15 +8,18 @@
 |1|[Introduction](./01/note.md)|Containers, Orchestration|
 
 ## 2. Building a Cluster
-|No.|Chapter|Keywords|
-|:-:|:------|:-------|
-|2.1|[Cluster Architecture](./02_01/note.md)|Master and Worker Node|
-|2.2|[Setting up Playground Servers](./02_02/note.md)|AWS Settings|
-|2.3|[Installing containerd](./02_03/note.md)|Docker|
-|2.4|[Installing Kubeadm, Kubelet, and Kubectl](./02_04/note.md)|kubeadm, kubelet, kubectl|
-|2.5|[Bootstrapping the Cluster](./02_05/note.md)||
-|2.6|[Configuring Networking with Calico](./02_06/note.md)||
-|2.7|[Building a Kubernetes 1.27 Cluster with kubeadm](./02_07/note.md)||
+- Complete Version (Check this for the detailed explanations.)
+  - [Building a Kubernetes 1.27 Cluster with kubeadm](./02_08/note.md)
+- Step by step   
+  |No.|Chapter|Keywords|
+  |:-:|:------|:-------|
+  |2.1|[Cluster Architecture](./02_01/note.md)|Master and Worker Node|
+  |2.2|[Setting up Playground Servers](./02_02/note.md)|AWS Settings|
+  |2.3|[Installing containerd](./02_03/note.md)|Docker|
+  |2.4|[Installing Kubeadm, Kubelet, and Kubectl](./02_04/note.md)|kubeadm,   kubelet, kubectl (vers. 1.24)|
+  |2.5|[Bootstrapping the Cluster](./02_05/note.md)||
+  |2.6|[Configuring Networking with Calico](./02_06/note.md)||
+  |2.7|[Joining the Worker Nodes](./02_07/note.md)||
 
 <br><br>
 
