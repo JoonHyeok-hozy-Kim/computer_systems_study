@@ -23,6 +23,13 @@ Create files using touch command.
 touch [target_directory]/[file_name]
 ```
 
+<br>
+
+Change the directory name using *mv* command.
+```
+mv [existing_file] [new_file_name]
+```
+
 
 <br>
 

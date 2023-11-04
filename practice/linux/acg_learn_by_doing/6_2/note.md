@@ -24,12 +24,9 @@ Check the original file, which is huge in size.
 ![](images/001.png)
 
 There are three ways to compress and decompress.
-- [Compressed Files in Linux](#compressed-files-in-linux)
-    - [Objective](#objective)
-    - [Hands on](#hands-on)
-      - [1. Compress and decompress directly using the compression algorithms.](#1-compress-and-decompress-directly-using-the-compression-algorithms)
-      - [2. Using tarball, compress and decompress files.](#2-using-tarball-compress-and-decompress-files)
-      - [3. Using zcat, read a compressed file without decompressing it.](#3-using-zcat-read-a-compressed-file-without-decompressing-it)
+- [1. Compress and decompress directly using the compression algorithms.](#1-compress-and-decompress-directly-using-the-compression-algorithms)
+- [2. Using tarball, compress and decompress files.](#2-using-tarball-compress-and-decompress-files)
+- [3. Using zcat, read a compressed file without decompressing it.](#3-using-zcat-read-a-compressed-file-without-decompressing-it)
 
 
 #### 1. Compress and decompress directly using the compression algorithms.
