@@ -73,11 +73,12 @@ Install *containerd* and *kubebernetes* packages both on the Control Plane(the M
   ```
 - Install packages that might be needed during the installation process (Recommended in the k8s documentation.)
   ```
-  sudo apt-get update && sudo apt-get install -y apt-transport-https curl
+  sudo apt-get update && sudo apt-get install -y apt-transport-https curl etcd
   ```
   - Packages
     - apt-transport-https
     - curl
+    - etcd
 - Download the gpg key for the k8s package repository so that we can locate the k8s packages. and add it.
   ```
   curl -s https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
@@ -110,8 +111,13 @@ Install *containerd* and *kubebernetes* packages both on the Control Plane(the M
   ```
   sudo kubeadm init --pod-network-cidr 192.168.0.0/16 --kubernetes-version 1.27.0
   ```
-  - 192.168.0.0/16 is the ip-range that will be used for our virtual pod network.
-  - *Calico* requires this setting.
+  - Explanation
+    - 192.168.0.0/16 is the ip-range that will be used for our virtual pod network.
+    - *Calico* requires this setting.
+  - If something goes wrong during this, check the log, fix the problem, and reset kubeadm with the following command.
+    ```
+    sudo kubeadm reset
+    ```
 - Set up the kube config to interact with the cluster using *kubectl*.
   - Use the output from the previous *kubeadm init* command.   
     ![](images/002.png)
