@@ -4,9 +4,13 @@
 
 ## WORKER NODE ONLY!
 #### Run the kubeadm join command on your Kube Node 1 and Kube Node 2 servers:
-```
-sudo kubeadm join <IP_ADDRESS> --token <TOKEN> --discovery-token-ca-cert-hash sha256:<HASH>
-```
+- The join command can be obtained in the Master node with the following command.
+  ```
+  kubeadm token create --print-join-command
+  ```
+  ![](../02_08/images/005.png)
+- Run the above join command on the Worker node.
+  ![](../02_08/images/006.png)
 
 #### From your Kube Master node, verify that all nodes have successfully joined the cluster:
 ```
