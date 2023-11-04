@@ -15,9 +15,9 @@ Install containerd in both control plane and the worker node.
 - Enable kernel modules, overlay and br_netfilter, whenever the server starts.
   ```
   cat <<EOF | sudo tee /etc/modules-load.d/containerd.conf
-  > overlay
-  > br_netfilter
-  > EOF
+  overlay
+  br_netfilter
+  EOF
   ```
 
 
