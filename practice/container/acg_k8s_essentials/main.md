@@ -9,6 +9,7 @@
 
 ## 2. Building a Cluster
 - Complete Version (Check this for the detailed explanations.)
+  - [AWS EC2 Setup (hozy Diamond Goose)](https://diamond-goose.tistory.com/64)
   - [Building a Kubernetes 1.27 Cluster with kubeadm](./02_08/note.md)
 - Step by step   
   |No.|Chapter|Keywords|
@@ -20,6 +21,11 @@
   |2.5|[Bootstrapping the Cluster](./02_05/note.md)||
   |2.6|[Configuring Networking with Calico](./02_06/note.md)||
   |2.7|[Joining the Worker Nodes](./02_07/note.md)||
+
+## 3. Basic Kubernetes Concepts
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|3.1|[Containers and Pods](./03_01/note.md)|Pod, Schedule, *kubectl get pods*, *kubectl describe pod*, *kubectl delete pod*|
 
 <br><br>
 
