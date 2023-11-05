@@ -11,6 +11,9 @@ The smallest and most basic building block of the Kubernetes model.
 
 ![](images/001.png)
 
+<br>
+
+### Hands on
 * Create a simple pod running an nginx container.
   ```
   cat << EOF | kubectl create -f -
@@ -28,6 +31,13 @@ The smallest and most basic building block of the Kubernetes model.
   ```
   kubectl get pods
   ```
+  - cf. Check all the pods in the k8s namespaces including the backend system pods.
+    ```
+    kubectl get pods -n kube-system
+    ```
+    ```
+    kubectl get pods --all-namespaces
+    ```
 * Get more information about your nginx pod:
   ```
   kubectl describe pod nginx
