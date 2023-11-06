@@ -26,6 +26,9 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |3.1|[Containers and Pods](./03_01/note.md)|Pod, Schedule, *kubectl get pods*, *kubectl describe pod*, *kubectl delete pod*|
+|3.2|[Clustering and Nodes](./03_02/note.md)|Node, Control Server|
+|3.3|[Networking in Kubernetes](./03_03/note.md)|IP address, Networking Plugin|
+|3.4|[](./03_04/note.md)||
 
 <br><br>
 
