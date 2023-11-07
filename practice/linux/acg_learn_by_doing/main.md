@@ -48,7 +48,7 @@
 |6.2|[Compressed Files in Linux](6_2/note.md)|gzip, bzip2, xz, tarball, zcat|
 |6.3|[File Attributes and Permissions](6_3/note.md)|chmod|
 |6.4|[Hardlink vs Softlink (Symbolic Link)](6_4/note.md)|ln, File Systems|
-|6.5|[GPG for File Encryption]||
+|6.5|[GPG for File Encryption](6_5/note.md)|gpg, mutt|
 
 <br>
 
