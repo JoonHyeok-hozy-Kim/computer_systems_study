@@ -26,11 +26,12 @@ sed "s/[from_string]/[to_string]/" [target_file]
     ```
     sed -i "s/[from_string]/[to_string]/" [target_file]
     ```
-    - Or can make another file using *i* option. 
-      - e.g.) Substitute and save in [traget_file]bak
+    - Or can make a backup file as follows. 
+      - e.g.) Substitute and save to the original file and create a backup file with "bak" added to the original name.
         ```
         sed -ibak "s/[from_string]/[to_string]/" [target_file]
         ``` 
+        ![](images/001.png)
 
 
 
