@@ -30,6 +30,14 @@
 |3.3|[Networking in Kubernetes](./03_03/note.md)|IP address, Networking Plugin|
 |3.4|[Kubernetes Architecture and Components](./03_04/note.md)|ectd, kube-apiserver, kube-controller-manager, kube-scheduler, kubelet, kube-proxy|
 
+## 4. Deploying to Kubernetes
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|4.1|[Kubernetes Deployments](./04_01/note.md)||
+
+
+
+
 <br><br>
 
 
