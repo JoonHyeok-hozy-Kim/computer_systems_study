@@ -33,8 +33,6 @@ sed "s/[from_string]/[to_string]/" [target_file]
         ``` 
         ![](images/001.png)
 
-
-
 <br>
 
 
