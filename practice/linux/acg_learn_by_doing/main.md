@@ -55,7 +55,7 @@
 ### 7. Working with Text Files and Streams
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|7.1|[sed : Text File Modification (Replace)]||
+|7.1|[sed : Text File Modification (Replace)](7_1/note.md)|sed|
 |7.2|[Regular Expression in Linux]||
 |7.3|[Vim]||
 
