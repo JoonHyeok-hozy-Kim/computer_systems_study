@@ -56,7 +56,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |7.1|[sed : Text File Modification (Replace)](7_1/note.md)|sed|
-|7.2|[Regular Expression in Linux]||
+|7.2|[Regular Expression in Linux](7_2/note.md)|grep|
 |7.3|[Vim]||
 
 <br>
