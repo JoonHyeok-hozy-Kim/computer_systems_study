@@ -34,6 +34,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |4.1|[Kubernetes Deployments](./04_01/note.md)||
+|4.2|[Kubernetes Services](./04_02/note.md)||
 
 
 
