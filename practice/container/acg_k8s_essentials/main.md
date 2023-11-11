@@ -35,6 +35,7 @@
 |:-:|:------|:-------|
 |4.1|[Kubernetes Deployments](./04_01/note.md)||
 |4.2|[Kubernetes Services](./04_02/note.md)||
+|4.2|[[Hands on] Deployments and Services](./04_03/note.md)||
 
 
 
