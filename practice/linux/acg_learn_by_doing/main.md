@@ -65,7 +65,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |8.1|[Adding a New Hard Disk to a Linux System](8_1/note.md)|lsblk, fdisk, xfs, blkid, /etc/fstab, mount|
-|8.2|[CUPS Print Server]||
+|8.2|[CUPS Print Server](8_2/note.md)|lpstat, lpinfo, lpadmin, lpc, lpr, lpq, cupsreject|
 |8.3|[Storage Management]||
 |8.4|[LVM Storage](./8_4/note.md)|physical volume, volume group, logical volume|
 
