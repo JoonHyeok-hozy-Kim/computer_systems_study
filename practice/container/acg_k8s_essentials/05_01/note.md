@@ -40,7 +40,7 @@
     ![](images/002.png)
 - Create a namespace for this project.
   ```
-  kubectl create namespace robot-shop
+  kubectl create namespace [namespace]
   ```
 - Deploy the app using the yaml files above.
   ```
@@ -48,7 +48,7 @@
   ```
   - Check the pods in the namespace that we declared!
     ```
-    kubectl get pods -n robot-shop
+    kubectl get pods -n [namespace]
     ```
     - No pod will be shown if the namespace is not specified.
     - It will take some time for the pods to get ready.
@@ -60,8 +60,30 @@
     ```
     http://[master_public_ip_address]:30080
     ```
+    ![](images/004.png)
     - Recall that the 30080 port is assigned for this app.
-
+- Scale up the MongoDB pod.
+  - Check the service.
+    ```
+    kubectl get pods -n [namespace]
+    ```
+    ![](images/005.png)
+  - Edit the deployment.
+    ```
+    kubectl edit deployment [pod_name] -n [namespace]
+    ```
+    ![](images/006.png)
+    - Increase the number of replicas to scale up.   
+      ![](images/007.png)
+    - Check the result.
+      ```
+      kubectl get deployment [pod_name] -n [namespace]
+      ```
+      ![](images/008.png)
+      ```
+      kubectl get pods -n [namespace]
+      ```
+      ![](images/009.png)
 
 <br>
 

@@ -1,12 +1,17 @@
 # Study record of computer systems
 
-## Theories
-* [Computer Systems Basic](./theory/computer_systems_basic/main.md)
+## Theories)
+#### Basic
+  * [Computer Systems, A Programmer's Perspective](./theory/computer_systems_basic/main.md)
+#### Network
+  * [ACG Networking Foundations](./theory/network/acg_networking_foundations/main.md)
 
-## Practica
-* Linux
+<br><br>
+
+## Practica) 
+#### Linux
   * [ACG Learn Linux by Doing](./practice/linux/acg_learn_by_doing/main.md)
-* Containers
+#### Container Service
   * Overall
     * [ACG Essential Container Concepts](./practice/container/acg_essential_container/main.md)
   * Docker
