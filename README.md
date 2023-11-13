@@ -16,6 +16,7 @@
     * [ACG Essential Container Concepts](./practice/container/acg_essential_container/main.md)
   * Docker
     * [ACG Docker Quick Start](./practice/container/acg_docker_quick_start/main.md)
+    * [ACG Docker Certified Associate (DCA)](./practice/container/acg_dca/main.md)
   * Kubenetes
     * [ACG Kubernetes Quick Start](./practice/container/acg_k8s_quick_start/main.md)
     * [ACG Kubernetes Essentials](./practice/container/acg_k8s_essentials/main.md)
