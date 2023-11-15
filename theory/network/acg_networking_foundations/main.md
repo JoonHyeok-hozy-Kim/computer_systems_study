@@ -13,7 +13,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |3.1|[IP Addressing](3_1/note.md)|Network Port, IPv4, IPv6, Network Classes, IP Subnet|
-
+|3.1|[DNS](3_2/note.md)|Domain Name, DNS Records, Recursive Name Server, Root Name Server, TLD Name Server, Authoritative Name Server, DNS Query|
 
 
 

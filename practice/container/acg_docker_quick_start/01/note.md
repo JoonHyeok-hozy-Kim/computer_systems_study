@@ -22,7 +22,7 @@ sudo apt-get update && sudo apt-get upgrade -y
 
 #### Install packages that are needed.
 ```
-sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+sudo apt-get -y install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
 ```
 ![](images/002.png)
 
