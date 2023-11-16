@@ -11,6 +11,7 @@
 ## Practica) 
 #### Linux
   * [ACG Learn Linux by Doing](./practice/linux/acg_learn_by_doing/main.md)
+  * [ACG Overview of Linux](./practice/linux/acg_overview_linux/main.md)
 #### Container Service
   * Overall
     * [ACG Essential Container Concepts](./practice/container/acg_essential_container/main.md)

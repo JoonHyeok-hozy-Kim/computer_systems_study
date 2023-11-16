@@ -27,11 +27,22 @@ Learn how to configure a system's DNS settings.
 
 * Review the network connection and the DNS ipv4 settings via nmcli command.
   ```
-  nmcli con show
+  nmcli con
   nmcli -f ipv4.dns con show "<connection_name>"
   ```
-  ![](images/003.png)
+  ![](images/003_1.png)   
+  ![](images/003.png)   
   * This system does not have DNS configured for use!
+  * cf.) Network-Manager (nmcli)
+    * Network manager manages all the network settings of the computer.
+    * If the *nmcli* command does not work, install Network Manager.
+      ```
+      sudo apt-get install -y network-manager
+      ```
+      - Check if the package is properly working.
+        ```
+        ncmli general status
+        ```
 
 <br>
 
