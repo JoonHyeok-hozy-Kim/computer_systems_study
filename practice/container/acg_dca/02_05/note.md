@@ -51,7 +51,9 @@ docker container stop nginx
 ```
 
 ## Start a stopped container:
-```docker container start nginx```
+```
+docker container start nginx
+```
 
 
 ## Delete a container (but it must be stopped first):
