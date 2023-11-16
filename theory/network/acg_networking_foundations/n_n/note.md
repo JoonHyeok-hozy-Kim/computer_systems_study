@@ -2,8 +2,11 @@
 
 # Title
 
-### Objective
-Learn how to use the LVM management tool.
+### Concept) 
+- Def.)
+  - 
+- Props.)
+  - 
 
 <br>
 
