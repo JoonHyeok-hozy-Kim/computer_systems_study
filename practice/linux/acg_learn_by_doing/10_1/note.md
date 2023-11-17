@@ -25,6 +25,7 @@ Learn how to configure a system's DNS settings.
 
 <br>
 
+#### Tech) Using nmcli
 * Review the network connection and the DNS ipv4 settings via nmcli command.
   ```
   nmcli con
