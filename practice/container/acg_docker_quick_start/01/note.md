@@ -46,7 +46,7 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 #### Install Docker Community Edition
 ```
-sudo apt-get install docker-ce
+sudo apt-get install -y docker-ce
 ```
 ![](images/005.png)
 
