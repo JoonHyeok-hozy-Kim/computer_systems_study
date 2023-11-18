@@ -71,7 +71,7 @@
 
 <br>
 
-#### Hands on) Backup the Docker Swarm
+#### Hands on) Restore the Docker Swarm Using the Backup File
 - Hands on
   - In the Manager Node...
     1. Stop Docker
@@ -80,11 +80,11 @@
        ```
     2. Truncate ```/var/lib/docker/swarm```.
        ```
-       sudo rm -rf /var/lib/docker/swarm
+       sudo rm -rf /var/lib/docker/swarm/*
        ```
     3. Restore the ```/var/lib/docker/swarm```, using our previous backup file
        ```
-       sudo tar -zxvf backup.tar.gz -C /var/lib/docker/swarm
+       sudo tar -zxvf backup.tar.gz -C /var/lib/docker/swarm/
        ```
     4. Start Docker again.
        ```
@@ -94,8 +94,17 @@
         ```
         docker node ls
         ```
-       
 
 <br>
+
+#### Concept) Namespace and Docker
+- Docker uses a technology called namespaces to provide the isolated workspace called the container. 
+- When you run a container, Docker creates a set of namespaces for that container.
+- [Official Document](https://docs.docker.com/get-started/overview/#the-underlying-technology)   
+- Namespaces)    
+  ![](images/006.png)
+  - Refer to [the previous study record](../../acg_essential_container/notes/2_2_linux_namespaces.md) for more info.
+
+<br><br>
 
 [Back to ACG DCA](../main.md)
