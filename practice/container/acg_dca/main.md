@@ -10,7 +10,7 @@
 |2-5|[Running and Managing a Container](./02_05/note.md)|docker run, docker ps, docker container stop, docker container start, docker rm|
 |2-6|[Downgrading and Upgrading the Docker Engine](./02_06/note.md)||
 |2-7|[Configuring Logging Drivers](./02_07/note.md)|json-file, syslog|
-|2-8|[Docker Swarm](./02_08/note.md)||
+|2-8|[Docker Swarm](./02_08/note.md)|Manger and Worker Node Configuration, Backup and Restore|
 
 
 
