@@ -47,16 +47,6 @@
 
 <br>
 
-### Concept) 
-
-
-<br>
-
-### Concept) 
-
-
-<br>
-
 
 
 <br>

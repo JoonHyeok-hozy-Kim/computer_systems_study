@@ -10,6 +10,13 @@
 
 <br>
 
+### 3. Types of Linux
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|3.1|[Types of Linux](3_1/note.md)|Server, Desktop, Mobile, Hypervisor, Virtual (Type1, Type2), Architecture|
+
+<br>
+
 
 
 [Back to Computer Systems main](../../../README.md)
