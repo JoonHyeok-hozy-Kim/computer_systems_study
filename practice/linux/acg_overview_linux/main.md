@@ -21,6 +21,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |4.1|[SSH](4_1/note.md)|CLI, Key Pair|
+|4.2|[Installing and Updating Software in Linux](4_2/note.md)|sudo, dnf, yum, apt|
 
 <br>
 
