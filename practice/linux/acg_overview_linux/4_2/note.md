@@ -1,4 +1,4 @@
-[Back to Linux Main](../main.md)
+[Back to Linux Overview Main](../main.md)
 
 # Installing and Updating Software in Linux
 
@@ -56,4 +56,4 @@
 
 <br>
 
-[Back to Linux Main](../main.md)
+[Back to Linux Overview Main](../main.md)
