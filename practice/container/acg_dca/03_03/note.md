@@ -64,10 +64,12 @@
     - Docker file goes as follows
       ```Dockerfile
       FROM golang:1.12.4
-      WORKDIR /helloworld   # Create a directory
+      # Create a directory
+      WORKDIR /helloworld
       COPY helloworld.go .  
       RUN GOOS=linux go build -a -installsuffix cgo -o helloworld .
-      CMD ["./helloworld"]  # Execute the source code.
+      # Execute the source code.
+      CMD ["./helloworld"]
       ```
   - Build and test the inefficient image.
     ```
@@ -96,14 +98,17 @@
     ```
   - Edit the Docker file as follows.
     ```Dockerfile
-    FROM golang:1.12.4 AS compiler                 # Alias used for this stage!
+    # Alias used for this stage!
+    FROM golang:1.12.4 AS compiler
     WORKDIR /helloworld
     COPY helloworld.go .  
     RUN GOOS=linux go build -a -installsuffix cgo -o helloworld .
 
-    FROM alpine:3.9.3                              # Start a new stage
+    # Start a new stage
+    FROM alpine:3.9.3
     WORKDIR /root
-    COPY --from=complier /helloworld/helloworld .  # Copy from the previous stage
+    # Copy from the previous stage
+    COPY --from=complier /helloworld/helloworld .
     CMD ["./helloworld"]
     ```
 
