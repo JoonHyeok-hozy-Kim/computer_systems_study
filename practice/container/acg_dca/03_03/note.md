@@ -65,7 +65,7 @@
       ```Dockerfile
       FROM golang:1.12.4
       WORKDIR /helloworld   # Create a directory
-      COPY helloworld.go .  # Copy the source code to the container.
+      COPY helloworld.go .  
       RUN GOOS=linux go build -a -installsuffix cgo -o helloworld .
       CMD ["./helloworld"]  # Execute the source code.
       ```
@@ -79,7 +79,19 @@
     ```
     docker image ls
     ```
-    ![]
+    ![](images/001.png)
+    - The image that prints "hello world" is too huge!
+      - Inefficient!
+- Trial 2) Efficient Build
+  - Copy ```helloworld.go``` and ```Dockerfile``` to ```../efficient```.
+    ```
+    cp helloworld.go ../efficient
+    cp Dockerfile ../efficient
+    ```
+  - Go to the efficient directory.
+    ```
+    cd ../efficient
+    ```
 
 
 <br>
