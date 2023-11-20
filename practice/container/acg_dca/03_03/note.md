@@ -88,9 +88,23 @@
     cp helloworld.go ../efficient
     cp Dockerfile ../efficient
     ```
+    - We will modify Dockerfile only.
+    - The source code remains the same.
   - Go to the efficient directory.
     ```
     cd ../efficient
+    ```
+  - Edit the Docker file as follows.
+    ```Dockerfile
+    FROM golang:1.12.4 AS compiler                 # Alias used for this stage!
+    WORKDIR /helloworld
+    COPY helloworld.go .  
+    RUN GOOS=linux go build -a -installsuffix cgo -o helloworld .
+
+    FROM alpine:3.9.3                              # Start a new stage
+    WORKDIR /root
+    COPY --from=complier /helloworld/helloworld .  # Copy from the previous stage
+    CMD ["./helloworld"]
     ```
 
 
