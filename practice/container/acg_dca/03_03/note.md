@@ -108,9 +108,10 @@
     FROM alpine:3.9.3
     WORKDIR /root
     # Copy from the previous stage
-    COPY --from=complier /helloworld/helloworld .
+    COPY --from=compiler /helloworld/helloworld .
     CMD ["./helloworld"]
     ```
+    ![](images/002.png)
 
 
 <br>
