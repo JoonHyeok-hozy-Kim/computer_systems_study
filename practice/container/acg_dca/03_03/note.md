@@ -111,6 +111,16 @@
     COPY --from=compiler /helloworld/helloworld .
     CMD ["./helloworld"]
     ```
+  - Go to the efficient directory.
+    ```
+    docker build -t efficient .
+    ```
+    ```
+    docker run efficient
+    ```
+    ```
+    docker images
+    ```
     ![](images/002.png)
 
 
