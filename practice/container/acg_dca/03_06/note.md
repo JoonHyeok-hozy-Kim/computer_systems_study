@@ -6,7 +6,7 @@
 - In few cases, you may want to take an image with many layers and flatten them into a single layer.
 - Docker does not provide an official method for doing this.
   - why?)
-    - It goes against [the Docker philosophy](../03_01/note.md#concept-layered-file-system).
+    - It goes against [the Docker's layered file system philosophy](../03_01/note.md#concept-layered-file-system).
 - Still, you can accomplish this by...
   1. Run a container from the image.
   2. Export the container to an archive using ```docker export```.

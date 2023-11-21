@@ -26,9 +26,9 @@
     sudo vim /etc/docker/daemon.json
     ```
     - e.g.)
-      - *json-file* (current default)
+      - *json-file* (current default)   
         ![](images/002.png)
-      - *syslog* (local system logging)
+      - *syslog* (local system logging)   
         ![](images/003.png)
   - *json-file* supports various options.
     - Add with "log-opts" tag.
@@ -47,7 +47,7 @@
   ```
   docker run --log-driver [driver_name] --log-opt [options] [container_name]
   ```
-  - e.g.) syslog for the nginx container
+  - e.g.) syslog for the nginx container   
     ![](images/005.png)
 
 <br>

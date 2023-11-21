@@ -19,13 +19,13 @@
     </td>
   </tr>
   <tr>
-    <td> <code>docker run [image_name]:tag</code>
+    <td> <code>docker run [image_name]:[tag]</code>
     </td>
     <td> - Simply run an image.
     </td>
   </tr>
   <tr>
-    <td> <code>docker run [image_name]:tag [commands_and_arguments]</code>
+    <td> <code>docker run [image_name]:[tag] [commands_and_arguments]</code>
     </td>
     <td> - Run a container with a command and arguments. <br><br> - e.g.) <code>docker run busybox echo hello world!</code> <br> <img src="images/001.png">
     </td>
