@@ -29,17 +29,14 @@
   <tr>
     <td>Command</td>
     <td>Meaning</td>
-    <td>Usage</td>
   </tr>
   <tr>
     <td><code>docker pull [image_name:tag]</code><br><code>docker image pull [image_name:tag]</code></td>
-    <td>Pull (download) an image</td>
-    <td></td>
+    <td>- Pull (download) an image</td>
   </tr>
   <tr>
     <td><code>docker image history [image_name:tag]</code></td>
-    <td>List the layers used to build an image</td>
-    <td></td>
+    <td>- List the layers used to build an image</td>
   </tr>
   <tr>
     <td><code>docker image ls</code><br><code>docker images</code></td>
@@ -48,8 +45,7 @@
   </tr>
   <tr>
     <td><code>docker image inspect [image_name:tag]</code></td>
-    <td>Get detailed information about an image in json format.</td>
-    <td>Use Go template to get only a subset of information. <br> <code>docker image inspect [image_name:tag] --format [template_text]</code> <br> <img src="images/003.png"> </td>
+    <td>- Get detailed information about an image in json format. <br>- Use Go template to get only a subset of information. <br> <code>docker image inspect [image_name:tag] --format [template_text]</code> <br> <img src="images/003.png"> </td>
   </tr>
 </table>
 
