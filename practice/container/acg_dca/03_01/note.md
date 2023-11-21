@@ -48,8 +48,8 @@
   </tr>
   <tr>
     <td><code>docker image inspect [image_name:tag]</code></td>
-    <td>Get detailed information about an image</td>
-    <td>Use Go template to get only a subset of information. <br> <code>docker image inspect [image_name:tag] --format [template_text]</code> </td>
+    <td>Get detailed information about an image in json format.</td>
+    <td>Use Go template to get only a subset of information. <br> <code>docker image inspect [image_name:tag] --format [template_text]</code> <br> <img src="images/003.png"> </td>
   </tr>
 </table>
 
