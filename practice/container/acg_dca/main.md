@@ -17,8 +17,8 @@
 ## 3. Image
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|3-1|[Docker Images](./03_01/note.md)|Layered File System|
-|3-2|[Dockerfile](./03_02/note.md)|Directives : FROM, ENV, RUN, CMD, EXPOSE, WORKDIR, COPY, ADD, STOPSIGNAL, HEALTHCHECK|
+|3-1|[Docker Images](./03_01/note.md)|Layered File System, ```docker pull```, ```docker image history```, ```docker image inspect```, ```docker image prune```|
+|3-2|[Dockerfile](./03_02/note.md)|Directives : FROM, ENV, RUN, CMD, EXPOSE, WORKDIR, COPY, ADD, STOPSIGNAL, HEALTHCHECK, ```docker build```|
 |3-3|[Multi-Stage Build](./03_03/note.md)|Ephemeral Container|
 |3-6|[Flattening a Docker Image to a Single Layer](./03_06/note.md)|```docker export```, ```docker import```|
 
