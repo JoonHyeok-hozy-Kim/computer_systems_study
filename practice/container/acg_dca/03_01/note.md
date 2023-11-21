@@ -31,7 +31,7 @@
     <td>Meaning</td>
   </tr>
   <tr>
-    <td><code>docker pull [image_name:tag]</code><br><code>docker image pull [image_name:tag]</code></td>
+    <td><code>docker pull [image_name:tag]</code><br><br><code>docker image pull [image_name:tag]</code></td>
     <td>- Pull (download) an image</td>
   </tr>
   <tr>
@@ -39,13 +39,28 @@
     <td>- List the layers used to build an image</td>
   </tr>
   <tr>
-    <td><code>docker image ls</code><br><code>docker images</code></td>
+    <td><code>docker image ls</code><br><br><code>docker images</code></td>
     <td>List images</td>
     <td></td>
   </tr>
   <tr>
     <td><code>docker image inspect [image_name:tag]</code></td>
-    <td>- Get detailed information about an image in json format. <br>- Use Go template to get only a subset of information. <br> <code>docker image inspect [image_name:tag] --format [template_text]</code> <br> <img src="images/003.png"> </td>
+    <td>- Get detailed information about an image in json format. <br><br>- Use Go template to get only a subset of information. <br> <code>docker image inspect [image_name:tag] --format [template_text]</code> <br> <img src="images/003.png"> </td>
+  </tr>
+  <tr>
+    <td><code>docker image rm [image_name:tag]</code> <br><br> <code>docker rmi [image_name:tag]</code></td>
+    <td>- Delete an image.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>docker image prune</code></td>
+    <td>- Delete unused (dangling) images from the system.</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td><code>docker run [image_name:tag]</code></td>
+    <td>- Run an image.</td>
+    <td></td>
   </tr>
 </table>
 
