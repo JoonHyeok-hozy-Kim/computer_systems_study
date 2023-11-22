@@ -32,6 +32,13 @@
 
 <br>
 
+### 6. Ways to Get Hands-On with Linux
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|6.1|[Windows Subsystem for Linux](6_1/note.md)||
+
+<br>
+
 
 
 [Back to Computer Systems main](../../../README.md)
