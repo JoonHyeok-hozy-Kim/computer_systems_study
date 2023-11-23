@@ -14,6 +14,8 @@
 <br>
 
 #### Tech.) How to create a registry
+- Notice)
+  - Creating and Deleting below are the basic demonstrations. Refer to the [hands on lab](./hands_on.md) for the step-by-step demonstration.
 - How?)
   - Run a container using the registry image.
   - Publish port 5000. 
@@ -21,7 +23,7 @@
   - Creating a registry.
     - Run Docker's open source registry software with the port 5000.
       ```
-      docker run -d -p 5000:5000 --restart=always --name [registry_name] registry:2.7
+      docker run -d -p 5000:5000 --restart=always --name [registry_name] registry:2.7.0
       ```
       - Creating a registry with the default configuration
         - ```-e REGISTRY_[env_var_setup]``` : Name the environment variable into ```REGISTRY_```
@@ -64,7 +66,7 @@
     - Generate a htpasswd file.
       - Temporarily run our registry image to run htpasswd and output the result to  ```htpasswd``` file.
         ```
-        docker run --entrypoint htpasswd httpd:2 registry:2 -Bbn [id] [password] > auth/htpasswd
+        docker run --entrypoint htpasswd registry:2.7.0 -Bbn [id] [password] > auth/htpasswd
         ```
   - Generate a self-signed certificate. 
     - Create a ```certs``` directory at registry
@@ -91,7 +93,7 @@
     -e REGISTRY_AUTH=htpasswd \
     -e "REGISTRY_AUTH_HTPASSWD_REALM=Registry Realm" \
     -e REGISTRY_AUTH_HTPASSWD_PATH=/auth/htpasswd \
-    registry:2.7
+    registry:2.7.0
     ```
     - Port is 443 because we are using TLS.
     - Must enter the home directory of the user at [user_home_dir]
@@ -110,12 +112,14 @@
 |:------|:----------|
 |<code>docker pull [image_name]</code>|Download an image from Docker Hub. <br> To download from a private registry, specify the public host name of it. <br><code>docker pull [registry_public_host_name]/[image_name]</code>|
 |<code>docker search [image_name]</code>|Search images. <br> Only works with Docker Hub|
-|<code>docker login [registry_name]</code>|Authenticating for the registry. <br> If the registry name is specified, it will login to Docker Hub. <br><br> cf.) When the "certificate signed by unknown authority" error pops-up. <br> - Why?) The docker daemon does not trust the certification provided. <br> - Two ways to solve this. <br> 1. Turn off certificate verification. (Not recommended.) <br> - Edit ```/etc/docker/daemon.json``` <br> -- Specify public_host_name that will skip the cert verification. <br> <img src="images/002.png"> <br> - Restart Docker : ```sudo systemctl restart docker``` <br><br> 2. Provide the public certificate to the Docker engine. <br> - Create a directory at local : ```sudo mkdir -p /etc/docker/certs.d/[public_host_name]``` <br> - Copy certificate from the registry server : ```sudo scp [user_name]@[public_host_name]:[location_of_the_crt_file] /etc/docker/certs.d/[public_host_name]``` <br> -- e.g.) <img src="images/003.png">|
-|<code>docker tag [image_name] [registry_public_host_name]/[image_name] </code> |Tag an image with specifying a private registry.|
-|<code>docker push [registry_public_host_name]/[image_name] </code>|Upload an image to a private registry..|
+|<code>docker login [registry_name]</code>|Authenticating for the registry. <br> If the registry name is specified, it will login to Docker Hub. <br><br> cf.) When the "certificate signed by unknown authority" error pops-up. <br> - Why?) The docker daemon does not trust the certification provided. <br> - Two ways to solve this. <br> 1. Turn off certificate verification. (Not recommended.) <br> - Edit ```/etc/docker/daemon.json``` <br> -- Specify public_host_name that will skip the cert verification. <br> <img src="images/002.png"> <br> - Restart Docker : ```sudo systemctl restart docker``` <br><br> 2. Provide the public certificate to the Docker engine. <br> - Create a directory at local : ```sudo mkdir -p /etc/docker/certs.d/[public_host_name]``` <br> - Copy certificate from the registry server : ```sudo scp [user_name]@[public_host_name]:[location_of_the_crt_file] /etc/docker/certs.d/[public_host_name]``` <br> -- e.g.) [Hands on lab](hands_on.md#4-in-the-workstation-server-login-to-the-created-registry-in-the-registry-server)|
+|<code>docker tag [image_name] [registry_public_host_name]/[image_name]:[tag] </code> |Tag an image with specifying a private registry.|
+|<code>docker push [registry_public_host_name]/[image_name]:[tag] </code>|Upload an image to a private registry..|
 
+<br><br>
 
-
+### Hands on Lab
+- Check the [Hands on Lab](hands_on.md) for step by step setup.
 
 <br>
 
