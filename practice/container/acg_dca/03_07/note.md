@@ -21,7 +21,7 @@
   - Creating a registry.
     - Run Docker's open source registry software with the port 5000.
       ```
-      docker run -d -p 5000:5000 --restart=always --name [registry_name] registry:2
+      docker run -d -p 5000:5000 --restart=always --name [registry_name] registry:2.7
       ```
       - Creating a registry with the default configuration
         - ```-e REGISTRY_[env_var_setup]``` : Name the environment variable into ```REGISTRY_```
@@ -91,7 +91,7 @@
     -e REGISTRY_AUTH=htpasswd \
     -e "REGISTRY_AUTH_HTPASSWD_REALM=Registry Realm" \
     -e REGISTRY_AUTH_HTPASSWD_PATH=/auth/htpasswd \
-    registry:2
+    registry:2.7
     ```
     - Port is 443 because we are using TLS.
     - Must enter the home directory of the user at [user_home_dir]
