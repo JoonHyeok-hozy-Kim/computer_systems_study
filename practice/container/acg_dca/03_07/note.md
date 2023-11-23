@@ -64,7 +64,7 @@
     - Generate a htpasswd file.
       - Temporarily run our registry image to run htpasswd and output the result to  ```htpasswd``` file.
         ```
-        docker run --entrypoint htpasswd registry:2 -Bbn [id] [password] > auth/htpasswd
+        docker run --entrypoint htpasswd httpd:2 registry:2 -Bbn [id] [password] > auth/htpasswd
         ```
   - Generate a self-signed certificate. 
     - Create a ```certs``` directory at registry
