@@ -75,7 +75,7 @@
       ```
       openssl req \
       -newkey rsa:4096 -nodes -sha256 -keyout certs/domain.key \
-      -x509 -days 365 -out cert/domain.crt
+      -x509 -days 365 -out certs/domain.crt
       ```
       - Press Enter for most of the prompts except **Common Name**.
       - Common Name : Enter the public host name of your server where your registry resides.   
