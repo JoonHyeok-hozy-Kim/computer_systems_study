@@ -108,7 +108,7 @@
 #### Concept) How to Use Docker Registries
 |Command|Description|
 |:------|:----------|
-|<code>docker pull [image_name]</code>|Download an image.|
+|<code>docker pull [image_name]</code>|Download an image from Docker Hub. <br> To download from a private registry, specify the public host name of it. <br><code>docker pull [registry_public_host_name]/[image_name]</code>|
 |<code>docker search [image_name]</code>|Search images. <br> Only works with Docker Hub|
 |<code>docker login [registry_name]</code>|Authenticating for the registry. <br> If the registry name is specified, it will login to Docker Hub. <br><br> cf.) When the "certificate signed by unknown authority" error pops-up. <br> - Why?) The docker daemon does not trust the certification provided. <br> - Two ways to solve this. <br> 1. Turn off certificate verification. (Not recommended.) <br> - Edit ```/etc/docker/daemon.json``` <br> -- Specify public_host_name that will skip the cert verification. <br> <img src="images/002.png"> <br> - Restart Docker : ```sudo systemctl restart docker``` <br><br> 2. Provide the public certificate to the Docker engine. <br> - Create a directory at local : ```sudo mkdir -p /etc/docker/certs.d/[public_host_name]``` <br> - Copy certificate from the registry server : ```sudo scp [user_name]@[public_host_name]:[location_of_the_crt_file] /etc/docker/certs.d/[public_host_name]``` <br> -- e.g.) <img src="images/003.png">|
 |<code>docker tag [image_name] [registry_public_host_name]/[image_name] </code> |Tag an image with specifying a private registry.|
