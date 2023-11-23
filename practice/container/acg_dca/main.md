@@ -21,7 +21,7 @@
 |3-2|[Dockerfile](./03_02/note.md)|Directives : FROM, ENV, RUN, CMD, EXPOSE, WORKDIR, COPY, ADD, STOPSIGNAL, HEALTHCHECK, ```docker build```|
 |3-3|[Multi-Stage Build](./03_03/note.md)|Ephemeral Container|
 |3-6|[Flattening a Docker Image to a Single Layer](./03_06/note.md)|```docker export```, ```docker import```|
-|3-7|[Docker Registries](./03_07/note.md)|Docker Registry, Default Configuration Using Environment Variables, Registry Security Setup, TLS, htpasswd|
+|3-7|[Docker Registries](./03_07/note.md)|Docker Registry, Default Configuration Using Environment Variables, Registry Security Setup, TLS, htpasswd, <code>docker pull</code>, <code>docker search</code>, <code>docker login</code>|
 
 
 
