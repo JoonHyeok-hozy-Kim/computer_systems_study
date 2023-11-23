@@ -6,7 +6,7 @@
 Your company has recently decided to use Docker to run containers in production. They have built some Docker images to run their own proprietary software and need a place to store and manage these images. You have been asked to build a secure, private Docker registry for use by the company. In order to verify that everything works, you have also been asked to configure a Docker workstation server to push to and pull from the registry.
 
 To complete this lab, ensure that the following requirements are met for the registry:
-- A private Docker registry is running on the Docker registry server using version 2.7 of the registry image.
+- A private Docker registry is running on the Docker registry server using version 2.7.0 of the registry image.
 - The container name for the registry should be registry.
 - The registry should always automatically restart if it stops or the Docker daemon or server restarts.
 - The registry should require authentication. Set up an initial account with the username ```docker``` and the password ```d0ck3rrU73z```.
@@ -37,7 +37,7 @@ Set up the Docker workstation server to meet the following requirements:
      cd ~/registry
      ```
      ```
-     docker run --entrypoint htpasswd registry:2.7.0 -Bbn docker   d0ck3rrU73z > auth/htpasswd
+     docker run --entrypoint htpasswd registry:2.7.0 -Bbn docker d0ck3rrU73z > auth/htpasswd
      ```
 
    - cert
@@ -50,6 +50,10 @@ Set up the Docker workstation server to meet the following requirements:
      -x509 -days 365 -out certs/domain.crt
      ```
      ![](images/004.png)
+     - The host name can be found with the following command.
+       ```
+       echo $HOSTNAME
+       ```
 
 
 
@@ -89,7 +93,7 @@ Set up the Docker workstation server to meet the following requirements:
 
      - Copy certificate from the registry server.
        ```
-       sudo scp cloud_user@ip-10-0-1-101:/home/cloud_user/registry/certs/  domain.crt /etc/docker/certs.d/ip-10-0-1-101
+       sudo scp cloud_user@ip-10-0-1-101:/home/cloud_user/registry/certs/domain.crt /etc/docker/certs.d/ip-10-0-1-101
        ```
 
    - Log in to the private registry
