@@ -2,8 +2,10 @@
 
 # Title
 
-### Objective
-Learn how to use the LVM management tool.
+<br>
+
+### Concept) The CIA Model
+
 
 <br>
 

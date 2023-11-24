@@ -23,6 +23,14 @@
 |3-6|[Flattening a Docker Image to a Single Layer](./03_06/note.md)|```docker export```, ```docker import```|
 |3-7|[Docker Registries](./03_07/note.md)|Docker Registry, Default Configuration Using Environment Variables, Registry Security Setup, TLS, htpasswd, <code>docker pull</code>, <code>docker search</code>, <code>docker login</code>, <code>docker tag</code>, <code>docker push</code>|
 
+<br>
+
+## 4. Orchestration
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|4-1|[Locking and Unlocking a Swarm Cluster](./04_01/note.md)|Autolock|
+|4-2|[High Availability in a Swarm Cluster](./04_02/note.md)|Raft Consensus Algorithm, Quorum, Availability Zones|
+
 
 
 <br><br>
