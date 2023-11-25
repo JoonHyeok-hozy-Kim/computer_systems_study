@@ -6,7 +6,7 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |2.2|[Different Versions of Modern Linux](2_2/note.md)|Distribution|
-|2.2|[Open Source](2_3/note.md)||
+|2.3|[Open Source](2_3/note.md)||
 
 <br>
 
