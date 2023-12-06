@@ -8,6 +8,13 @@
 |2.2|[The Differences between Kernels, Operating Systems, and Distributions](2_2/note.md)|Kernels, Operating Systems, Distributions|
 |2.3|[Preparing for the Build](2_3/note.md)|Linux Kernel Source Code, VM Environment Setting|
 
+<br>
+
+### 3. Building the Kernel
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|3.2|[Downloading and Extracting the Source Code](3_2/note.md)||
+
 
 
 [Back to Computer Systems main](../../../README.md)
