@@ -1,6 +1,6 @@
 [Back to Linux Overview Main](../main.md)
 
-# Downloading and Extracting the Source Code
+# 3. Building the Kernel
 
 <br>
 
@@ -95,6 +95,40 @@ sudo apt-get install -y git fakeroot build-essential ncurses-dev xz-utils libssl
   ```
   make install
   ```
+
+<br><br>
+
+## 4. Updating the Boot Loader
+#### Concept) Boot Loader
+The boot loader is the first piece of code that is loaded when the system is powered on.   
+It loads and runs the OS and applications.
+
+- [Okay to Skip] Update the ```initramfs```.
+  ```
+  sudo update-initramfs -c -k 6.0.1
+  ```
+  - This step is already completed by the ```make install```.
+  - No problem manually running this again.
+
+- Update the boot loader
+  ``` 
+  sudo update-grub
+  ```
+
+<br><br>
+
+## 5. Verifying the Environment
+- Reboot the server.
+  ```
+  reboot
+  ```
+
+- Verify the kernel version.
+  ```
+  uname -mrs
+  ```
+  - The updated kernel version should be displayed.
+    - In our case, Linux 6.0.1 x86_64.
 
 
 <br>

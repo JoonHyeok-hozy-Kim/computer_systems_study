@@ -13,7 +13,7 @@
 ### 3. Building the Kernel
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|3.2|[Building the Kernel](03_02/note.md)|Kernel Source Code|
+|3.2|[Building the Kernel](03_02/note.md)|Kernel Source Code, Required Packages, Configuration, Boot Loader, Reboot|
 
 
 
