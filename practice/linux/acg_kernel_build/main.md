@@ -15,6 +15,15 @@
 |:-:|:------|:-------|
 |3.2|[Building the Kernel](03_02/note.md)|Kernel Source Code, Required Packages, Configuration, Boot Loader, Reboot|
 
+<br>
 
+### 4. Customizing the Kernel
+|No.|Chapter|Keywords|
+|:-:|:------|:-------|
+|4.2|[Optimizing the Kernel for the Cloud](04_02/note.md)||
+
+
+
+<br>
 
 [Back to Computer Systems main](../../../README.md)
