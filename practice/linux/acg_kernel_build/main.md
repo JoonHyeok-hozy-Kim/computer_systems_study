@@ -20,7 +20,8 @@
 ### 4. Customizing the Kernel
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
-|4.2|[Optimizing the Kernel for the Cloud](04_02/note.md)||
+|4.2|[Optimizing the Kernel for the Cloud](04_02/note.md)|```make menuconfig```|
+|4.3|[Creating a Linux Distribution](04_03/note.md)|Linux Distribution, |
 
 
 
