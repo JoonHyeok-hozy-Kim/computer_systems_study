@@ -13,6 +13,7 @@
   * [ACG Learn Linux by Doing](./practice/linux/acg_learn_by_doing/main.md)
   * [ACG Overview of Linux](./practice/linux/acg_overview_linux/main.md)
   * [ACG Build Your Own Linux Kernel from Scratch](practice/linux/acg_kernel_build/main.md)
+  * [ACG LPI Linux Essentials Certification](practice/linux/acg_lpi_essentials/main.md)
 #### Container Service
   * Overall
     * [ACG Essential Container Concepts](./practice/container/acg_essential_container/main.md)
