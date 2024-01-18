@@ -6,6 +6,10 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |1|[Linux Distributions](01_01_01/note.md)|Distributions, Graphical Interface, X Server, GNU Core, Linux Kernel|
+|2|[Linux-Embedded Systems](01_01_02/note.md)||
+
+
+
 
 <br>
 

@@ -1,4 +1,4 @@
-[Back to Linux Overview Main](../main.md)
+[Back to LPI Main](../main.md)
 
 # Linux Distributions
 
@@ -26,4 +26,4 @@
 
 <br>
 
-[Back to Linux Overview Main](../main.md)
+[Back to LPI Main](../main.md)

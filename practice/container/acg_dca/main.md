@@ -42,6 +42,8 @@
 |No.|Chapter|Keywords|
 |:-:|:------|:-------|
 |5-1|[Docker Storage in Depth](./05_01/note.md)|Storage Drivers (Graph Drivers) : overlay2, aufs, devicemapper <br> Storage Models : Filesystem, Block, Object Storage|
+|5-2|[Configuring DeviceMapper](./05_02/note.md)|loop-lvm, device-lvm|
+
 
 
 
