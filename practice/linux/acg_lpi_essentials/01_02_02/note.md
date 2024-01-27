@@ -22,6 +22,7 @@
 |Samba|NFS|
 |:-:|:-:|
 |![](images/005.png)|![](images/006.png)|
+|Mostly for the local file share.||
 
 
 
