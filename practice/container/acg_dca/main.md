@@ -45,6 +45,7 @@
 |5-2|[Configuring DeviceMapper](./05_02/note.md)|loop-lvm, device-lvm|
 |5-3|[Docker Volumes](./05_03/note.md)|- Bind Mounts vs Volumes <br> - ```--mount``` syntax, ```--volume``` syntax, <br> - Commands to Manage Volumes|
 |5-4|[Image Cleanup](./05_04/note.md)|- ```docker system df```, ```docker image prune```|
+|5-5|[Storage in a Cluster](./05_05/note.md)|- Volume Driver : ```vieux/sshfs```|
 
 
 

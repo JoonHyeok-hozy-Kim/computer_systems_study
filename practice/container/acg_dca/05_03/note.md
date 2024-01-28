@@ -5,6 +5,7 @@
 ### Concept) Docker Volumes
 - A persistent data
 - Recall that the internal data in Docker are ephemeral.
+- cf.) [How to share Docker volume with multiple Docker machines](../05_05/note.md#tech-how-to-share-docker-volume-with-multiple-docker-machines)
 
 <br>
 
@@ -93,6 +94,8 @@ Either of the ```--mount``` syntax and the ```-v``` syntax can be used for creat
    ```
    docker volume rm [VOLUME_NAME]
    ```
+
+
 
 <br>
 
